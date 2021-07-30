@@ -1,0 +1,41 @@
+[2021-07-30 20:20:41 +0200] [5284] [INFO] Handling signal: term
+/home/gann/.local/lib/python3.7/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:115.)
+  return torch._C._cuda_getDeviceCount() > 0
+[2021-07-30 20:20:44 +0200] [5287] [INFO] Worker exiting (pid: 5287)
+/home/gann/.local/lib/python3.7/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:115.)
+  return torch._C._cuda_getDeviceCount() > 0
+[2021-07-30 20:20:44 +0200] [5286] [INFO] Worker exiting (pid: 5286)
+/home/gann/.local/lib/python3.7/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:115.)
+  return torch._C._cuda_getDeviceCount() > 0
+[2021-07-30 20:20:44 +0200] [5289] [INFO] Worker exiting (pid: 5289)
+[2021-07-30 20:20:46 +0200] [5284] [INFO] Shutting down: Master
+[2021-07-30 20:20:46 +0200] [5315] [INFO] Starting gunicorn 20.1.0
+[2021-07-30 20:20:46 +0200] [5315] [INFO] Listening at: unix:api.sock (5315)
+[2021-07-30 20:20:46 +0200] [5315] [INFO] Using worker: sync
+[2021-07-30 20:20:46 +0200] [5317] [INFO] Booting worker with pid: 5317
+[2021-07-30 20:20:46 +0200] [5318] [INFO] Booting worker with pid: 5318
+[2021-07-30 20:20:46 +0200] [5319] [INFO] Booting worker with pid: 5319
+[2021-07-30 20:32:55 +0200] [5315] [INFO] Handling signal: term
+/home/gann/.local/lib/python3.7/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:115.)
+  return torch._C._cuda_getDeviceCount() > 0
+[2021-07-30 20:32:55 +0200] [5317] [INFO] Worker exiting (pid: 5317)
+/home/gann/.local/lib/python3.7/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:115.)
+  return torch._C._cuda_getDeviceCount() > 0
+[2021-07-30 20:32:55 +0200] [5318] [INFO] Worker exiting (pid: 5318)
+/home/gann/.local/lib/python3.7/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:115.)
+  return torch._C._cuda_getDeviceCount() > 0
+[2021-07-30 20:32:55 +0200] [5319] [INFO] Worker exiting (pid: 5319)
+[2021-07-30 20:32:55 +0200] [5315] [WARNING] Worker with pid 5318 was terminated due to signal 15
+[2021-07-30 20:32:55 +0200] [5315] [WARNING] Worker with pid 5317 was terminated due to signal 15
+[2021-07-30 20:32:56 +0200] [5315] [INFO] Shutting down: Master
+[2021-07-30 20:32:58 +0200] [6316] [INFO] Starting gunicorn 20.1.0
+[2021-07-30 20:32:58 +0200] [6316] [INFO] Listening at: unix:api.sock (6316)
+[2021-07-30 20:32:58 +0200] [6316] [INFO] Using worker: sync
+[2021-07-30 20:32:58 +0200] [6324] [INFO] Booting worker with pid: 6324
+[2021-07-30 20:32:58 +0200] [6325] [INFO] Booting worker with pid: 6325
+[2021-07-30 20:32:58 +0200] [6326] [INFO] Booting worker with pid: 6326
+[2021-07-30 20:58:24 +0200] [6316] [CRITICAL] WORKER TIMEOUT (pid:6324)
+/home/gann/.local/lib/python3.7/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:115.)
+  return torch._C._cuda_getDeviceCount() > 0
+[2021-07-30 20:58:24 +0200] [6324] [INFO] Worker exiting (pid: 6324)
+[2021-07-30 20:58:25 +0200] [7558] [INFO] Booting worker with pid: 7558

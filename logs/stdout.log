@@ -1,0 +1,22 @@
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[20:20:56]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[winequality-red.csv.csv: 84199  bytes]
+-- Finished evolution with the generation 10 in 304.32 seconds.
+Initial population fitness values:
+[['0', '54.779411764705884', '91.0'], ['1', '54.779411764705884', '138.0'], ['2', '61.76470588235294', '84.0'], ['3', '61.76470588235294', '141.0'], ['4', '63.970588235294116', '158.0'], ['5', '87.13235294117646', '101.0'], ['6', '87.5', '154.0'], ['7', '98.8970588235294', '158.0'], ['8', '99.26470588235294', '84.0'], ['9', '99.63235294117646', '92.0']]
+Final population fitness values:
+[['0', '54.411764705882355', '122.0'], ['1', '54.779411764705884', '62.0'], ['2', '54.779411764705884', '90.0'], ['3', '54.779411764705884', '90.0'], ['4', '54.779411764705884', '90.0'], ['5', '54.779411764705884', '106.0'], ['6', '56.25', '90.0'], ['7', '97.05882352941177', '119.0'], ['8', '99.26470588235294', '110.0'], ['9', '99.63235294117646', '60.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 20, 25, 20, 29, 29, 15], ['Mean', 18.2, 20.4, 18.2, 19.8, 9.8, 1.5], ['Min', 17, 19, 17, 0, 0, 0], ['Std', 0.7483314773547883, 2.33238075793812, 0.9797958971132711, 11.625833303466896, 12.172099243762352, 4.5]]
+[20:26:07]: Response(train)[(54.411764705882355, 122, 7, 1.5873722348894392) alongside File[10491 bytes]]
+
+Using cpu device
+Using cpu device
+Using cpu device
+
+[20:48:23]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[adult.csv.csv: 3974305  bytes]
