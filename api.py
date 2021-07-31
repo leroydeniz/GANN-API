@@ -131,21 +131,15 @@ def api_test():
                 pTest = pTest.decode('UTF-8')
                 if verificar_extension_csv(pTrain_filename):
                     # Aquí tiene que entrenar
-                    modelo, _, _ = optimizar(pTrain)
+                    modelo, _, size_entrada = optimizar(pTrain)
+                    modelo = importar_onnx(exportar_onnx(modelo, size_entrada))
                 else:
                     # Aquí sólo tiene que probar (detecta ONNX)
+                    pTrain = pTrain.encode('latin1')
                     modelo = importar_onnx(pTrain)
 
-                response = {
-                    "error_perc": None, # 1 - Accuracy
-                    "avg_loss": None,
-                    "fscore": None,
-                    "roc": None,
-                    "tpr": None,
-                    "fpr": None,
-                    "precision": None,
-                    "recall": None
-                    }
+                response = evaluar(modelo, pTest)
+                
                 now = datetime.now()
                 current_time = now.strftime("%H:%M:%S")
                 print(f"[{current_time}]: Response(test)[{response}]\n")
@@ -195,7 +189,7 @@ def api_classify():
         print(f" -> Request(classify)[{pTest_filename}: {len(pTest)} bytes]")
 
         # Verificar que el archivo no está vacío
-        if verificar_vacio_csv(pTrain):
+        if verificar_vacio_csv(pTest):
             return jsonify({'Error': 'Conjunto a clasificar - Archivo vacío'})
 
         if verificar_extension_csv(pTrain_filename) and verificar_vacio_csv(pTrain):
@@ -208,13 +202,14 @@ def api_classify():
                 pTest = pTest.decode('UTF-8')
                 if verificar_extension_csv(pTrain_filename):
                     # Aquí tiene que entrenar
-                    pass
+                    modelo, _, size_entrada = optimizar(pTrain)
+                    modelo = importar_onnx(exportar_onnx(modelo, size_entrada))
                 else:
                     # Aquí sólo tiene que probar (detecta ONNX)
-                    pass
-                response = {
-                    "Data": None
-                    }
+                    pTrain = pTrain.encode('latin1')
+                    modelo = importar_onnx(pTrain)
+                pred = clasificar(modelo, pTest, return_csv=True)
+                response = {"file" : pred}
                 now = datetime.now()
                 current_time = now.strftime("%H:%M:%S")
                 print(f"[{current_time}]: Response(classify)[{response}]\n")

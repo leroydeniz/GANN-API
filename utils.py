@@ -12,9 +12,18 @@ import torch.onnx
 import onnx
 from onnx2pytorch import ConvertModel
 
+from sklearn.metrics import (
+                             accuracy_score,
+                             log_loss,
+                             auc,
+                             classification_report
+                             )
+
 from core import genetic_algorithm, NeuralNetwork
 
 from constants import *
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # Función para verificar el tipo de archivo csv
 def verificar_extension_csv(filename):
@@ -31,7 +40,7 @@ def verificar_vacio_csv(file):
         else:
                 return False
 
-def preprocessing(file:str):
+def preprocessing(file:str, contains_classes : bool = True):
         '''
         Función para verificar que el archivo cumple la estructura de csv y tiene valores numéricos
         '''
@@ -50,8 +59,11 @@ def preprocessing(file:str):
         if total_rows < 6 and total_rows > 100000:
                 return None
 
-        # Factorizamos las clases
-        df.iloc[:, -1] = pd.factorize(df.iloc[:, -1], sort=True)[0]
+        if contains_classes:
+                # Factorizamos las clases
+                df.iloc[:, -1], uniques = pd.factorize(df.iloc[:, -1], sort=True)
+        else:
+                uniques = None
 
         # Elimina todas las columnas que tengan el mismo valor, no aportan información y complejizan el modelo
         df = df[[i for i in df if len(set(df[i]))>1]]
@@ -76,10 +88,9 @@ def preprocessing(file:str):
         for c in columns:
                 df[c] = pd.factorize(df[c])[0]
 
-        # Randomizar las filas del dataset para evitar datasets ordenados
-        df = df.sample(df.shape[0])
+        df.reset_index(inplace=True, drop=True)
 
-        return df
+        return df, uniques
 
 def exportar_onnx(modelo:NeuralNetwork, size_entrada:int, requires_grad:bool = True) -> str:
         # Entrada del modelo
@@ -105,17 +116,84 @@ def exportar_onnx(modelo:NeuralNetwork, size_entrada:int, requires_grad:bool = T
                         fichero = f.getvalue()
         return fichero
 
-def importar_onnx(onnx_file: BytesIO) -> NeuralNetwork:
-        pass
+def importar_onnx(onnx_file: str) -> ConvertModel:
+        onnx_model = onnx.load_from_string(onnx_file)
+        model = ConvertModel(onnx_model)
+        return model
 
-def clasificar(modelo, test_dataset) -> Any:
-        pass
+def clasificar(modelo: ConvertModel, dataset: str, return_csv:bool = False) -> Any:
+        df, _ = preprocessing(dataset, contains_classes=False)
+        df["class"] = 0
+        dV = df.iloc[:, :-1]  # Variables de decisión
+        dC = df.iloc[:, -1]  # Variables de clase
+        test_values = torch.Tensor(dV.values)
+        test_target = torch.Tensor(dC.values)
+        test_tensor = TensorDataset(test_values, test_target)
+        test_dataloader = DataLoader(test_tensor, batch_size=1)
+        del test_values, test_target
 
-def evaluar(modelo, test_dataset) -> Any:
-        predicted = clasificar(modelo, test_dataset)
+        modelo.eval()
+        pred : List = []
+        with torch.no_grad():
+            for X, _ in test_dataloader:
+                X = X.unsqueeze(0)
+                X = X.to(device)
+                pre = modelo(X)
+                pred.append(pre.argmax(2).item())
+        pred = np.array(pred)
+        if return_csv:
+                df['class'] = pd.Series(pred)
+                return df.to_csv(index=False)
+        else:
+                return pred
+
+def evaluar(modelo, dataset) -> Any:
+        df, uniques = preprocessing(dataset, contains_classes=True)
+        dCOriginal = df.iloc[:, -1]  # Variables de clase originales
+        df_stripped = df.iloc[:, :-1]
+        df_stripped["class"] = 0
+        dV = df_stripped.iloc[:, :-1]  # Variables de decisión
+        dC = df_stripped.iloc[:, -1]  # Variables de clase (falsas)
+        del df_stripped
+        test_values = torch.Tensor(dV.values)
+        test_target = torch.Tensor(dC.values)
+        test_tensor = TensorDataset(test_values, test_target)
+        test_dataloader = DataLoader(test_tensor, batch_size=1)
+        del test_values, test_target
+
+        modelo.eval()
+        pred : List = []
+        with torch.no_grad():
+            for X, _ in test_dataloader:
+                X = X.unsqueeze(0)
+                X = X.to(device)
+                pre = modelo(X)
+                pred.append(pre.argmax(2).item())
+        pred = np.array(pred)
+        truth = dCOriginal.to_numpy()
+
+        report = classification_report(y_true=truth, y_pred=pred, output_dict=True)
+
+        classes = {}
+        for i,key in enumerate(uniques.tolist()):
+                classes.update({key:report.pop(str(i))})
+        report.update({'by_classes': classes})
+
+        scores = {
+                    "error_perc": None, # 1 - Accuracy
+                    "avg_loss": None,
+                    "roc": None,
+                    "tpr": None,
+                    "fpr": None,
+                    }
+        return report
 
 def optimizar(file) -> Tuple[NeuralNetwork, List[float], int]:
-        df = preprocessing(file)
+        df, _ = preprocessing(file)
+
+        # Randomizar las filas del dataset para evitar datasets ordenados
+        df = df.sample(df.shape[0])
+
         dV = df.iloc[:, :-1]  # Variables de decisión
         dC = df.iloc[:, -1]  # Variables de clase
         entrada, salida = dV.shape[1], dC.nunique(dropna=True)

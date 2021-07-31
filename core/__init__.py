@@ -58,10 +58,10 @@ def genetic_algorithm(
         max_epochs_nn
     )
 
-    # --------------------------------
-    # Algorithm start
-    # --------------------------------
+    ''' Inicio del algoritmo '''
     time_start = time.perf_counter()
+
+    # Inicializa la población
     population = toolbox.poblacion(n=tamano_poblacion)
 
     evaluate_population(population, toolbox.evaluar)
@@ -73,42 +73,40 @@ def genetic_algorithm(
     previous_best_fit = None
 
     try:
-        # Begin the evolution
+        # Comienza a evolucionar
         while (
             current_gen_best_fit.values != (0.0, 1.0, 1.0, 0.0)
             and current_generation < max_generaciones
         ):
 
-            # Check if no score improvement has been made
+            # Comprueba si ha habido mejoras
             if current_generation % 10 == 0:
                 if (
                     previous_best_fit
                     and current_gen_best_fit <= previous_best_fit
                 ):
                     print(
-                        "The fitness has not improved in 10 generations:\n"
-                        f"\tPrevious best fit: {previous_best_fit}\n"
-                        f"\tCurrent best fit: {current_gen_best_fit}\n"
+                        "No se ha mejorado en las últimas 10 generaciones:\n"
+                        f"\tMejor rendimiento anterior:: {previous_best_fit}\n"
+                        f"\tRendimiento actual: {current_gen_best_fit}\n"
                         "Exiting..."
                     )
                     break
 
                 previous_best_fit = current_gen_best_fit
 
-            # A new generation
+            # Crear una nueva generación
             current_generation = current_generation + 1
 
-            # Select the best individuals for the offspring
+            # Selecciona los mejores individuos para la descendencia
             best_population_individuals = tools.selBest(
                 population, int(len(population) / 2)
             )
-            # Clone the selected individuals
+            # Duplica los individuos seleccionados
             offspring = list(map(toolbox.clone, best_population_individuals))
 
-            # --------------------------------
-            # Operators
-            # --------------------------------
 
+            ''' Operadores '''
             crossed_individuals = apply_crossover(
                 offspring, prob_cruce, toolbox.cruzar
             )
@@ -117,10 +115,7 @@ def genetic_algorithm(
                 offspring, toolbox, prob_mut_neurona, prob_mut_capa
             )
 
-            # --------------------------------
-            # Evaluation
-            # --------------------------------
-
+            ''' Evolución '''
             invalid_ind = [ind for ind in offspring if not ind.fitness.valid]
 
             evaluate_population(invalid_ind, toolbox.evaluar)

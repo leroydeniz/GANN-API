@@ -20,3 +20,1010 @@ Using cpu device
 
 [20:48:23]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
  -> Request(train)[adult.csv.csv: 3974305  bytes]
+Using cpu device
+
+[02:36:36]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[flores.csv.csv: 3979  bytes]
+-- Finished evolution with the generation 10 in 528.65 seconds.
+Initial population fitness values:
+[['0', '50.0', '97.0'], ['1', '60.0', '154.0'], ['2', '63.333333333333336', '93.0'], ['3', '63.333333333333336', '132.0'], ['4', '63.333333333333336', '140.0'], ['5', '63.333333333333336', '142.0'], ['6', '63.333333333333336', '162.0'], ['7', '76.66666666666667', '92.0'], ['8', '76.66666666666667', '99.0'], ['9', '76.66666666666667', '150.0']]
+Final population fitness values:
+[['0', '26.66666666666667', '61.0'], ['1', '36.66666666666667', '62.0'], ['2', '36.66666666666667', '71.0'], ['3', '36.66666666666667', '71.0'], ['4', '36.66666666666667', '72.0'], ['5', '36.66666666666667', '72.0'], ['6', '40.0', '71.0'], ['7', '60.0', '85.0'], ['8', '60.0', '92.0'], ['9', '76.66666666666667', '59.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4'], ['Max', 20, 15, 24, 24, 20], ['Mean', 19.1, 14.5, 24.0, 9.0, 2.0], ['Min', 19, 13, 24, 0, 0], ['Std', 0.3, 0.6708203932499369, 0.0, 7.014271166700073, 6.0]]
+[02:45:32]: Response(train)[(26.66666666666667, 61, 4, 0.8129769166310629) alongside File[4222 bytes]]
+
+
+[02:47:54]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'No acepto')])]
+
+[13:11:15]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[adult.csv.csv: 3974305  bytes]
+Using cpu device
+
+[02:28:09]: Request(train)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[file.csv.csv: 359  bytes]
+-- Finished evolution with the generation 10 in 2.52 seconds.
+Initial population fitness values:
+[['0', '0.0', '77.0'], ['1', '100.0', '71.0'], ['2', '100.0', '78.0'], ['3', '100.0', '88.0'], ['4', '100.0', '111.0'], ['5', '100.0', '111.0'], ['6', '100.0', '118.0'], ['7', '100.0', '119.0'], ['8', '100.0', '123.0'], ['9', '100.0', '132.0']]
+Final population fitness values:
+[['0', '0.0', '22.0'], ['1', '0.0', '23.0'], ['2', '0.0', '24.0'], ['3', '0.0', '41.0'], ['4', '0.0', '42.0'], ['5', '0.0', '42.0'], ['6', '0.0', '42.0'], ['7', '0.0', '43.0'], ['8', '100.0', '22.0'], ['9', '100.0', '61.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2'], ['Max', 20, 19, 20], ['Mean', 18.8, 11.4, 2.0], ['Min', 18, 0, 0], ['Std', 0.7483314773547883, 9.308061022576076, 6.0]]
+[02:28:12]: Response(train)[(0.0, 22, 2, 0.7436684370040894) alongside File[1199 bytes]]
+
+
+[02:36:27]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[flores.csv.csv: 3979  bytes]
+-- Finished evolution with the generation 10 in 501.57 seconds.
+Initial population fitness values:
+[['0', '60.0', '160.0'], ['1', '60.0', '175.0'], ['2', '66.66666666666667', '79.0'], ['3', '66.66666666666667', '157.0'], ['4', '73.33333333333333', '72.0'], ['5', '73.33333333333333', '106.0'], ['6', '73.33333333333333', '137.0'], ['7', '73.33333333333333', '151.0'], ['8', '73.33333333333333', '170.0'], ['9', '73.33333333333333', '174.0']]
+Final population fitness values:
+[['0', '26.66666666666667', '141.0'], ['1', '26.66666666666667', '141.0'], ['2', '26.66666666666667', '142.0'], ['3', '26.66666666666667', '159.0'], ['4', '40.0', '121.0'], ['5', '40.0', '122.0'], ['6', '60.0', '142.0'], ['7', '66.66666666666667', '122.0'], ['8', '66.66666666666667', '159.0'], ['9', '73.33333333333333', '121.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5', 'Hidden layer 6'], ['Max', 31, 16, 27, 17, 29, 24, 16], ['Mean', 30.0, 16.0, 26.8, 16.6, 29.0, 12.4, 3.2], ['Min', 29, 16, 26, 16, 29, 0, 0], ['Std', 0.6324555320336759, 0.0, 0.4, 0.4898979485566356, 0.0, 10.287856919689348, 6.400000000000001]]
+[02:44:53]: Response(train)[(26.66666666666667, 141, 7, 0.8181113402048746) alongside File[12146 bytes]]
+
+
+[02:44:53]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[file.csv.csv: 359  bytes]
+-- Finished evolution with the generation 10 in 31.54 seconds.
+Initial population fitness values:
+[['0', '50.0', '131.0'], ['1', '50.0', '155.0'], ['2', '50.0', '175.0'], ['3', '50.0', '178.0'], ['4', '100.0', '81.0'], ['5', '100.0', '100.0'], ['6', '100.0', '105.0'], ['7', '100.0', '112.0'], ['8', '100.0', '178.0'], ['9', '100.0', '180.0']]
+Final population fitness values:
+[['0', '50.0', '70.0'], ['1', '50.0', '80.0'], ['2', '50.0', '80.0'], ['3', '50.0', '107.0'], ['4', '50.0', '107.0'], ['5', '50.0', '107.0'], ['6', '50.0', '108.0'], ['7', '50.0', '108.0'], ['8', '50.0', '123.0'], ['9', '100.0', '80.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 21, 28, 19, 10, 29, 15], ['Mean', 20.0, 27.8, 18.1, 9.0, 16.6, 1.5], ['Min', 19, 27, 18, 0, 0, 0], ['Std', 0.6324555320336759, 0.4, 0.3, 3.0, 13.566134305689296, 4.5]]
+[02:45:25]: Response(train)[(50.0, 70, 4, 1.2436684370040894) alongside File[5951 bytes]]
+
+Using cpu device
+
+[20:33:11]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[winequality-red.csv.csv: 84199  bytes]
+-- Finished evolution with the generation 10 in 308.68 seconds.
+Initial population fitness values:
+[['0', '54.779411764705884', '144.0'], ['1', '55.14705882352941', '105.0'], ['2', '62.13235294117647', '92.0'], ['3', '88.97058823529412', '94.0'], ['4', '88.97058823529412', '171.0'], ['5', '95.58823529411765', '80.0'], ['6', '96.32352941176471', '81.0'], ['7', '97.79411764705883', '165.0'], ['8', '98.8970588235294', '122.0'], ['9', '99.63235294117646', '181.0']]
+Final population fitness values:
+[['0', '51.10294117647059', '113.0'], ['1', '54.044117647058826', '104.0'], ['2', '54.779411764705884', '106.0'], ['3', '54.779411764705884', '107.0'], ['4', '54.779411764705884', '107.0'], ['5', '54.779411764705884', '112.0'], ['6', '54.779411764705884', '112.0'], ['7', '88.97058823529412', '103.0'], ['8', '95.22058823529412', '95.0'], ['9', '99.63235294117646', '129.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 28, 30, 26, 25, 20, 15], ['Mean', 26.0, 23.4, 18.4, 20.3, 13.2, 1.5], ['Min', 23, 14, 13, 17, 0, 0], ['Std', 2.449489742783178, 7.683749084919419, 5.607138307550474, 3.4655446902326914, 6.321392251711643, 4.5]]
+[20:38:26]: Response(train)[(51.10294117647059, 113, 6, 1.5544170524392809) alongside File[10208 bytes]]
+
+
+[02:41:11]: Request(train)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[flores.csv.csv: 3979  bytes]
+-- Finished evolution with the generation 10 in 266.80 seconds.
+Initial population fitness values:
+[['0', '56.666666666666664', '148.0'], ['1', '56.666666666666664', '162.0'], ['2', '66.66666666666667', '93.0'], ['3', '66.66666666666667', '167.0'], ['4', '76.66666666666667', '77.0'], ['5', '76.66666666666667', '110.0'], ['6', '76.66666666666667', '121.0'], ['7', '76.66666666666667', '131.0'], ['8', '76.66666666666667', '140.0'], ['9', '76.66666666666667', '147.0']]
+Final population fitness values:
+[['0', '23.33333333333333', '40.0'], ['1', '23.33333333333333', '41.0'], ['2', '23.33333333333333', '54.0'], ['3', '33.33333333333334', '78.0'], ['4', '46.666666666666664', '40.0'], ['5', '56.666666666666664', '42.0'], ['6', '63.333333333333336', '41.0'], ['7', '66.66666666666667', '96.0'], ['8', '76.66666666666667', '60.0'], ['9', '76.66666666666667', '80.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4'], ['Max', 27, 14, 20, 26, 18], ['Mean', 25.7, 11.9, 7.2, 7.6, 1.8], ['Min', 25, 11, 0, 0, 0], ['Std', 0.9, 0.9433981132056604, 7.467261881037788, 11.612062693595828, 5.4]]
+[02:45:39]: Response(train)[(23.33333333333333, 40, 3, 0.7845465739568075) alongside File[2575 bytes]]
+
+
+[02:48:13]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[flores.csv.csv: 3979  bytes]
+-- Finished evolution with the generation 10 in 29.52 seconds.
+Initial population fitness values:
+[['0', '30.0', '116.0'], ['1', '60.0', '89.0'], ['2', '60.0', '182.0'], ['3', '63.333333333333336', '122.0'], ['4', '70.0', '90.0'], ['5', '70.0', '100.0'], ['6', '70.0', '102.0'], ['7', '70.0', '140.0'], ['8', '70.0', '172.0'], ['9', '70.0', '199.0']]
+Final population fitness values:
+[['0', '30.0', '116.0'], ['1', '30.0', '117.0'], ['2', '30.0', '117.0'], ['3', '30.0', '127.0'], ['4', '30.0', '128.0'], ['5', '33.33333333333334', '128.0'], ['6', '70.0', '104.0'], ['7', '70.0', '116.0'], ['8', '70.0', '127.0'], ['9', '70.0', '134.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5', 'Hidden layer 6', 'Hidden layer 7'], ['Max', 14, 14, 25, 14, 15, 20, 14, 17], ['Mean', 14.0, 13.8, 25.0, 13.2, 14.8, 20.0, 11.2, 6.4], ['Min', 14, 13, 25, 13, 14, 20, 0, 0], ['Std', 0.0, 0.4, 0.0, 0.4, 0.39999999999999997, 0.0, 3.7894590642992836, 6.590902821313633]]
+[02:48:43]: Response(train)[(30.0, 116, 8, 0.851634701093038) alongside File[8602 bytes]]
+
+
+[02:52:58]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'No acepto')])]
+
+[02:59:37]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[Copia de flores.csv.csv: 3979  bytes]
+-- Finished evolution with the generation 10 in 21.02 seconds.
+Initial population fitness values:
+[['0', '40.0', '78.0'], ['1', '56.666666666666664', '127.0'], ['2', '60.0', '84.0'], ['3', '60.0', '87.0'], ['4', '60.0', '109.0'], ['5', '60.0', '109.0'], ['6', '60.0', '167.0'], ['7', '80.0', '92.0'], ['8', '80.0', '106.0'], ['9', '80.0', '126.0']]
+Final population fitness values:
+[['0', '20.0', '56.0'], ['1', '20.0', '56.0'], ['2', '20.0', '56.0'], ['3', '20.0', '56.0'], ['4', '20.0', '56.0'], ['5', '20.0', '57.0'], ['6', '60.0', '40.0'], ['7', '60.0', '56.0'], ['8', '60.0', '56.0'], ['9', '60.0', '84.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3'], ['Max', 23, 15, 16, 29], ['Mean', 22.0, 15.0, 14.4, 2.9], ['Min', 21, 15, 0, 0], ['Std', 0.4472135954999579, 0.0, 4.8, 8.7]]
+[02:59:58]: Response(train)[(20.0, 56, 4, 0.7459970116615295) alongside File[3854 bytes]]
+
+
+[13:25:43]: Request(train)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[file.csv.csv: 359  bytes]
+-- Finished evolution with the generation 10 in 2.92 seconds.
+Initial population fitness values:
+[['0', '50.0', '86.0'], ['1', '50.0', '117.0'], ['2', '50.0', '144.0'], ['3', '50.0', '146.0'], ['4', '50.0', '159.0'], ['5', '100.0', '85.0'], ['6', '100.0', '106.0'], ['7', '100.0', '155.0'], ['8', '100.0', '177.0'], ['9', '100.0', '189.0']]
+Final population fitness values:
+[['0', '50.0', '20.0'], ['1', '50.0', '20.0'], ['2', '50.0', '20.0'], ['3', '50.0', '37.0'], ['4', '50.0', '38.0'], ['5', '50.0', '38.0'], ['6', '50.0', '38.0'], ['7', '50.0', '38.0'], ['8', '50.0', '39.0'], ['9', '50.0', '45.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1'], ['Max', 17, 26], ['Mean', 16.0, 13.3], ['Min', 15, 0], ['Std', 0.4472135954999579, 9.033825324855467]]
+[13:25:46]: Response(train)[(50.0, 20, 2, 1.2436684370040894) alongside File[1127 bytes]]
+
+
+[13:32:42]: Request(train)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[file.csv.csv: 359  bytes]
+-- Finished evolution with the generation 10 in 2.72 seconds.
+Initial population fitness values:
+[['0', '50.0', '83.0'], ['1', '50.0', '93.0'], ['2', '50.0', '103.0'], ['3', '50.0', '125.0'], ['4', '50.0', '160.0'], ['5', '100.0', '61.0'], ['6', '100.0', '92.0'], ['7', '100.0', '97.0'], ['8', '100.0', '109.0'], ['9', '100.0', '154.0']]
+Final population fitness values:
+[['0', '50.0', '23.0'], ['1', '50.0', '23.0'], ['2', '50.0', '24.0'], ['3', '50.0', '24.0'], ['4', '50.0', '44.0'], ['5', '50.0', '45.0'], ['6', '50.0', '46.0'], ['7', '50.0', '46.0'], ['8', '100.0', '23.0'], ['9', '100.0', '23.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1'], ['Max', 20, 22], ['Mean', 19.5, 8.6], ['Min', 19, 0], ['Std', 0.5, 10.537551897855593]]
+[13:32:45]: Response(train)[(50.0, 23, 2, 1.2433547973632812) alongside File[1235 bytes]]
+
+Using cpu device
+Using cpu device
+
+[14:00:31]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'No acepto')])]
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[14:02:39]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[flores.csv.csv: 3979  bytes]
+-- Finished evolution with the generation 10 in 38.96 seconds.
+Initial population fitness values:
+[['0', '50.0', '151.0'], ['1', '73.33333333333333', '88.0'], ['2', '73.33333333333333', '111.0'], ['3', '73.33333333333333', '112.0'], ['4', '73.33333333333333', '121.0'], ['5', '73.33333333333333', '142.0'], ['6', '73.33333333333333', '177.0'], ['7', '76.66666666666667', '122.0'], ['8', '76.66666666666667', '155.0'], ['9', '76.66666666666667', '158.0']]
+Final population fitness values:
+[['0', '23.33333333333333', '126.0'], ['1', '23.33333333333333', '126.0'], ['2', '23.33333333333333', '126.0'], ['3', '26.66666666666667', '125.0'], ['4', '50.0', '97.0'], ['5', '50.0', '97.0'], ['6', '50.0', '118.0'], ['7', '50.0', '125.0'], ['8', '50.0', '125.0'], ['9', '50.0', '127.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 13, 14, 27, 16, 25, 30], ['Mean', 13.0, 13.6, 26.4, 16.0, 24.9, 22.3], ['Min', 13, 13, 26, 16, 24, 0], ['Std', 0.0, 0.4898979485566356, 0.4898979485566356, 0.0, 0.3, 11.402192771568108]]
+[14:03:19]: Response(train)[(23.33333333333333, 126, 7, 0.780886173248291) alongside File[10581 bytes]]
+
+
+[14:03:45]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/octet-stream')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.onnx: 9811 bytes]
+ -> Request(classify)[test.csv: 3468 bytes]
+[14:03:45]: Exception(classify)['utf-8' codec can't decode byte 0xbc in position 17: invalid start byte]
+
+
+[14:04:23]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/octet-stream')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 8900 bytes]
+ -> Request(classify)[test.csv: 359 bytes]
+[14:04:23]: Exception(classify)['utf-8' codec can't decode byte 0xad in position 17: invalid start byte]
+
+
+[14:04:43]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 3979 bytes]
+ -> Request(classify)[test.csv: 3468 bytes]
+-- Finished evolution with the generation 10 in 34.68 seconds.
+Initial population fitness values:
+[['0', '46.666666666666664', '69.0'], ['1', '60.0', '95.0'], ['2', '60.0', '118.0'], ['3', '60.0', '144.0'], ['4', '60.0', '145.0'], ['5', '66.66666666666667', '146.0'], ['6', '66.66666666666667', '152.0'], ['7', '66.66666666666667', '165.0'], ['8', '73.33333333333333', '107.0'], ['9', '73.33333333333333', '132.0']]
+Final population fitness values:
+[['0', '26.66666666666667', '71.0'], ['1', '26.66666666666667', '94.0'], ['2', '26.66666666666667', '95.0'], ['3', '26.66666666666667', '122.0'], ['4', '30.0', '58.0'], ['5', '30.0', '95.0'], ['6', '60.0', '72.0'], ['7', '60.0', '121.0'], ['8', '66.66666666666667', '44.0'], ['9', '73.33333333333333', '109.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 18, 17, 30, 14, 19, 26], ['Mean', 15.6, 13.9, 24.9, 10.0, 14.0, 6.7], ['Min', 13, 10, 18, 0, 0, 0], ['Std', 2.1540659228538015, 3.014962686336267, 5.243090691567332, 3.6606010435446255, 7.37563556583431, 10.621205204683696]]
+[14:05:18]: Exception(classify)[local variable 'uniques' referenced before assignment]
+
+Using cpu device
+Using cpu device
+Using cpu device
+
+[14:06:23]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 3979 bytes]
+ -> Request(classify)[test.csv: 3468 bytes]
+-- Finished evolution with the generation 10 in 38.37 seconds.
+Initial population fitness values:
+[['0', '33.33333333333334', '77.0'], ['1', '40.0', '147.0'], ['2', '66.66666666666667', '77.0'], ['3', '66.66666666666667', '84.0'], ['4', '66.66666666666667', '87.0'], ['5', '66.66666666666667', '177.0'], ['6', '66.66666666666667', '195.0'], ['7', '90.0', '79.0'], ['8', '90.0', '98.0'], ['9', '90.0', '118.0']]
+Final population fitness values:
+[['0', '16.666666666666657', '73.0'], ['1', '30.0', '77.0'], ['2', '33.33333333333334', '60.0'], ['3', '33.33333333333334', '77.0'], ['4', '33.33333333333334', '129.0'], ['5', '43.333333333333336', '60.0'], ['6', '43.333333333333336', '128.0'], ['7', '66.66666666666667', '100.0'], ['8', '90.0', '59.0'], ['9', '90.0', '73.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 28, 29, 28, 29, 23, 10], ['Mean', 15.2, 25.8, 18.0, 13.8, 5.8, 2.0], ['Min', 12, 13, 15, 0, 0, 0], ['Std', 6.4, 6.4, 5.019960159204453, 10.428806259586953, 8.975522268926749, 4.0]]
+[14:07:02]: Response(classify)[{'Predictions': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]
+
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[14:40:57]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 3979 bytes]
+ -> Request(classify)[test.csv: 3468 bytes]
+-- Finished evolution with the generation 10 in 36.67 seconds.
+Initial population fitness values:
+[['0', '30.0', '111.0'], ['1', '40.0', '81.0'], ['2', '43.333333333333336', '132.0'], ['3', '60.0', '174.0'], ['4', '70.0', '71.0'], ['5', '70.0', '78.0'], ['6', '70.0', '97.0'], ['7', '70.0', '149.0'], ['8', '70.0', '162.0'], ['9', '73.33333333333333', '154.0']]
+Final population fitness values:
+[['0', '6.666666666666671', '110.0'], ['1', '30.0', '87.0'], ['2', '30.0', '111.0'], ['3', '30.0', '111.0'], ['4', '30.0', '111.0'], ['5', '30.0', '111.0'], ['6', '60.0', '111.0'], ['7', '66.66666666666667', '86.0'], ['8', '70.0', '110.0'], ['9', '70.0', '138.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 20, 13, 25, 28, 23, 26], ['Mean', 18.9, 13.0, 24.8, 28.0, 18.3, 2.6], ['Min', 18, 13, 24, 28, 0, 0], ['Std', 0.5385164807134504, 0.0, 0.4, 0.0, 9.154780172128657, 7.8]]
+[14:41:35]: Response(classify)[{'Predictions': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]
+
+Using cpu device
+
+[14:46:25]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[flores.csv.csv: 3979  bytes]
+-- Finished evolution with the generation 10 in 37.61 seconds.
+Initial population fitness values:
+[['0', '36.66666666666667', '114.0'], ['1', '66.66666666666667', '114.0'], ['2', '66.66666666666667', '122.0'], ['3', '66.66666666666667', '122.0'], ['4', '66.66666666666667', '135.0'], ['5', '70.0', '86.0'], ['6', '70.0', '92.0'], ['7', '70.0', '95.0'], ['8', '70.0', '111.0'], ['9', '70.0', '129.0']]
+Final population fitness values:
+[['0', '30.0', '113.0'], ['1', '33.33333333333334', '106.0'], ['2', '36.66666666666667', '114.0'], ['3', '40.0', '113.0'], ['4', '63.333333333333336', '79.0'], ['5', '63.333333333333336', '80.0'], ['6', '63.333333333333336', '90.0'], ['7', '63.333333333333336', '140.0'], ['8', '70.0', '113.0'], ['9', '70.0', '114.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5', 'Hidden layer 6'], ['Max', 21, 15, 20, 27, 24, 24, 26], ['Mean', 19.4, 11.0, 17.4, 26.6, 12.0, 14.2, 2.6], ['Min', 19, 9, 10, 25, 0, 0, 0], ['Std', 0.8, 2.04939015319192, 3.7202150475476548, 0.8, 7.58946638440411, 9.96794863550169, 7.8]]
+[14:47:04]: Response(train)[(30.0, 113, 7, 0.8507428367932638) alongside File[8879 bytes]]
+
+Using cpu device
+Using cpu device
+
+[14:43:08]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 3979 bytes]
+ -> Request(classify)[test.csv: 3468 bytes]
+-- Finished evolution with the generation 10 in 38.53 seconds.
+Initial population fitness values:
+[['0', '16.666666666666657', '123.0'], ['1', '20.0', '116.0'], ['2', '56.666666666666664', '152.0'], ['3', '56.666666666666664', '153.0'], ['4', '56.666666666666664', '178.0'], ['5', '60.0', '79.0'], ['6', '60.0', '91.0'], ['7', '60.0', '100.0'], ['8', '60.0', '157.0'], ['9', '83.33333333333334', '118.0']]
+Final population fitness values:
+[['0', '3.3333333333333286', '123.0'], ['1', '16.666666666666657', '116.0'], ['2', '16.666666666666657', '116.0'], ['3', '16.666666666666657', '123.0'], ['4', '16.666666666666657', '123.0'], ['5', '16.666666666666657', '124.0'], ['6', '43.333333333333336', '105.0'], ['7', '56.666666666666664', '123.0'], ['8', '60.0', '117.0'], ['9', '63.333333333333336', '86.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5', 'Hidden layer 6'], ['Max', 29, 19, 29, 15, 31, 15, 18], ['Mean', 21.2, 13.6, 27.4, 12.5, 19.9, 9.0, 9.0], ['Min', 16, 10, 25, 10, 0, 0, 0], ['Std', 6.368673331236264, 4.409081537009721, 1.9595917942265424, 2.0615528128088303, 8.63075894692929, 7.3484692283495345, 9.0]]
+[14:43:47]: Response(classify)[{'Predictions': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]
+
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[14:50:08]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 3979 bytes]
+ -> Request(classify)[test.csv: 3468 bytes]
+-- Finished evolution with the generation 10 in 27.57 seconds.
+Initial population fitness values:
+[['0', '50.0', '63.0'], ['1', '50.0', '70.0'], ['2', '50.0', '79.0'], ['3', '50.0', '85.0'], ['4', '50.0', '100.0'], ['5', '50.0', '140.0'], ['6', '50.0', '179.0'], ['7', '70.0', '111.0'], ['8', '80.0', '172.0'], ['9', '80.0', '187.0']]
+Final population fitness values:
+[['0', '16.666666666666657', '53.0'], ['1', '20.0', '53.0'], ['2', '20.0', '53.0'], ['3', '20.0', '64.0'], ['4', '30.0', '51.0'], ['5', '30.0', '52.0'], ['6', '30.0', '52.0'], ['7', '50.0', '33.0'], ['8', '80.0', '50.0'], ['9', '100.0', '65.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3'], ['Max', 21, 14, 20, 12], ['Mean', 19.3, 10.7, 17.2, 2.4], ['Min', 17, 10, 0, 0], ['Std', 1.2688577540449522, 1.4177446878757824, 5.844655678480984, 4.8]]
+[14:50:36]: Response(classify)[{'Predictions': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]
+
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[14:54:36]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 3979 bytes]
+ -> Request(classify)[test.csv: 3468 bytes]
+-- Finished evolution with the generation 10 in 151.78 seconds.
+Initial population fitness values:
+[['0', '36.66666666666667', '67.0'], ['1', '50.0', '132.0'], ['2', '53.333333333333336', '85.0'], ['3', '53.333333333333336', '109.0'], ['4', '53.333333333333336', '115.0'], ['5', '70.0', '93.0'], ['6', '70.0', '115.0'], ['7', '70.0', '129.0'], ['8', '76.66666666666667', '66.0'], ['9', '76.66666666666667', '191.0']]
+Final population fitness values:
+[['0', '23.33333333333333', '73.0'], ['1', '23.33333333333333', '75.0'], ['2', '23.33333333333333', '75.0'], ['3', '23.33333333333333', '86.0'], ['4', '23.33333333333333', '98.0'], ['5', '23.33333333333333', '131.0'], ['6', '46.666666666666664', '67.0'], ['7', '53.333333333333336', '74.0'], ['8', '70.0', '97.0'], ['9', '70.0', '144.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5', 'Hidden layer 6'], ['Max', 24, 26, 26, 24, 24, 10, 13], ['Mean', 19.2, 17.8, 22.7, 14.5, 11.5, 2.0, 1.3], ['Min', 11, 12, 21, 10, 0, 0, 0], ['Std', 5.03587132480567, 5.74108003776293, 1.676305461424021, 4.944694126030447, 11.586630226256467, 4.0, 3.9]]
+[14:57:18]: Response(classify)[{'Predictions': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]
+
+Using cpu device
+Using cpu device
+
+[14:55:02]: Request(train)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[flores.csv.csv: 3979  bytes]
+-- Finished evolution with the generation 10 in 170.07 seconds.
+Initial population fitness values:
+[['0', '40.0', '139.0'], ['1', '53.333333333333336', '49.0'], ['2', '53.333333333333336', '87.0'], ['3', '53.333333333333336', '102.0'], ['4', '53.333333333333336', '113.0'], ['5', '53.333333333333336', '131.0'], ['6', '66.66666666666667', '174.0'], ['7', '80.0', '98.0'], ['8', '80.0', '123.0'], ['9', '80.0', '135.0']]
+Final population fitness values:
+[['0', '20.0', '34.0'], ['1', '20.0', '34.0'], ['2', '20.0', '35.0'], ['3', '40.0', '139.0'], ['4', '46.666666666666664', '34.0'], ['5', '46.666666666666664', '35.0'], ['6', '53.333333333333336', '139.0'], ['7', '66.66666666666667', '33.0'], ['8', '66.66666666666667', '34.0'], ['9', '66.66666666666667', '35.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5', 'Hidden layer 6'], ['Max', 15, 10, 26, 26, 17, 13, 29], ['Mean', 11.7, 9.6, 13.9, 5.2, 3.4, 2.6, 5.8], ['Min', 10, 9, 10, 0, 0, 0, 0], ['Std', 1.676305461424021, 0.48989794855663565, 6.057227088363124, 10.4, 6.8, 5.2, 11.6]]
+[14:57:53]: Response(train)[(20.0, 34, 4, 0.7453323403994242) alongside File[2042 bytes]]
+
+Using cpu device
+
+[15:00:00]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[file.csv.csv: 359  bytes]
+-- Finished evolution with the generation 10 in 6.34 seconds.
+Initial population fitness values:
+[['0', '0.0', '98.0'], ['1', '50.0', '84.0'], ['2', '50.0', '97.0'], ['3', '50.0', '115.0'], ['4', '50.0', '160.0'], ['5', '50.0', '168.0'], ['6', '100.0', '80.0'], ['7', '100.0', '97.0'], ['8', '100.0', '104.0'], ['9', '100.0', '158.0']]
+Final population fitness values:
+[['0', '0.0', '98.0'], ['1', '50.0', '65.0'], ['2', '50.0', '76.0'], ['3', '50.0', '82.0'], ['4', '50.0', '83.0'], ['5', '50.0', '83.0'], ['6', '50.0', '84.0'], ['7', '50.0', '119.0'], ['8', '100.0', '83.0'], ['9', '100.0', '102.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 29, 17, 23, 21, 18, 21], ['Mean', 27.0, 15.6, 17.3, 16.1, 5.4, 2.1], ['Min', 19, 13, 15, 0, 0, 0], ['Std', 4.0, 1.42828568570857, 2.8653097563788807, 5.957348403442593, 8.248636250920512, 6.300000000000001]]
+[15:00:07]: Response(train)[(0.0, 98, 6, 0.7436685562133789) alongside File[7688 bytes]]
+
+Using cpu device
+
+[14:58:35]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[file.csv.csv: 359  bytes]
+-- Finished evolution with the generation 10 in 3.95 seconds.
+Initial population fitness values:
+[['0', '50.0', '97.0'], ['1', '50.0', '110.0'], ['2', '50.0', '115.0'], ['3', '50.0', '122.0'], ['4', '50.0', '126.0'], ['5', '50.0', '160.0'], ['6', '100.0', '68.0'], ['7', '100.0', '103.0'], ['8', '100.0', '144.0'], ['9', '100.0', '164.0']]
+Final population fitness values:
+[['0', '50.0', '52.0'], ['1', '50.0', '53.0'], ['2', '50.0', '70.0'], ['3', '50.0', '71.0'], ['4', '50.0', '71.0'], ['5', '50.0', '72.0'], ['6', '50.0', '72.0'], ['7', '50.0', '84.0'], ['8', '50.0', '84.0'], ['9', '50.0', '84.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3'], ['Max', 23, 26, 19, 14], ['Mean', 22.3, 25.6, 15.2, 4.2], ['Min', 22, 25, 0, 0], ['Std', 0.45825756949558405, 0.4898979485566356, 7.6000000000000005, 6.4156059729381765]]
+[14:58:39]: Response(train)[(50.0, 52, 3, 1.2436683177947998) alongside File[3935 bytes]]
+
+Using cpu device
+Using cpu device
+
+[15:19:51]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train', 'undefined'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>)])]
+
+[15:25:16]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/csv')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 359 bytes]
+ -> Request(classify)[test.csv: 359 bytes]
+[15:25:16]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[15:25:37]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/csv')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.csv: 359 bytes]
+ -> Request(classify)[test.csv: 359 bytes]
+-- Finished evolution with the generation 10 in 4.01 seconds.
+Initial population fitness values:
+[['0', '50.0', '117.0'], ['1', '50.0', '120.0'], ['2', '50.0', '145.0'], ['3', '50.0', '154.0'], ['4', '50.0', '157.0'], ['5', '50.0', '157.0'], ['6', '50.0', '179.0'], ['7', '100.0', '84.0'], ['8', '100.0', '137.0'], ['9', '100.0', '163.0']]
+Final population fitness values:
+[['0', '50.0', '40.0'], ['1', '50.0', '63.0'], ['2', '50.0', '63.0'], ['3', '50.0', '63.0'], ['4', '50.0', '63.0'], ['5', '50.0', '63.0'], ['6', '50.0', '63.0'], ['7', '50.0', '63.0'], ['8', '50.0', '65.0'], ['9', '50.0', '93.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3'], ['Max', 22, 16, 23, 28], ['Mean', 21.2, 15.2, 20.7, 2.8], ['Min', 21, 15, 0, 0], ['Std', 0.4, 0.4, 6.9, 8.399999999999999]]
+-> onnx2pytorch[
+
+{'dim': 2}
+{'dim': 1}
+Softmax(dim=1)
+]
+
+[15:25:41]: Exception(classify)[mat1 and mat2 shapes cannot be multiplied (1x5 and 4x21)]
+
+
+[15:26:36]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/csv')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 359 bytes]
+ -> Request(classify)[test.csv: 359 bytes]
+[15:26:36]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[15:27:11]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.onnx: 331 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[15:27:11]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+Using cpu device
+
+[15:26:52]: Request(classify)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/csv')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 3979 bytes]
+ -> Request(classify)[test.csv: 3979 bytes]
+[15:26:52]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[15:28:13]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.onnx: 331 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[15:28:13]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[15:28:39]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 331 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+-- Finished evolution with the generation 10 in 3.24 seconds.
+Initial population fitness values:
+[['0', '0.0', '79.0'], ['1', '0.0', '82.0'], ['2', '50.0', '160.0'], ['3', '100.0', '79.0'], ['4', '100.0', '82.0'], ['5', '100.0', '106.0'], ['6', '100.0', '108.0'], ['7', '100.0', '137.0'], ['8', '100.0', '153.0'], ['9', '100.0', '164.0']]
+Final population fitness values:
+[['0', '0.0', '34.0'], ['1', '0.0', '49.0'], ['2', '0.0', '50.0'], ['3', '0.0', '50.0'], ['4', '0.0', '50.0'], ['5', '0.0', '51.0'], ['6', '0.0', '60.0'], ['7', '0.0', '60.0'], ['8', '100.0', '14.0'], ['9', '100.0', '33.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3'], ['Max', 14, 20, 17, 18], ['Mean', 11.2, 15.8, 11.5, 3.6], ['Min', 10, 0, 0, 0], ['Std', 1.4696938456699067, 6.523802572120037, 7.566372975210778, 7.2]]
+-> onnx2pytorch[
+
+{'dim': 2}
+{'dim': 1}
+Softmax(dim=1)
+]
+
+[15:28:42]: Exception(classify)[mat1 and mat2 shapes cannot be multiplied (1x4 and 3x11)]
+
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[15:29:17]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/csv')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.csv: 359 bytes]
+ -> Request(classify)[test.csv: 359 bytes]
+-- Finished evolution with the generation 10 in 9.22 seconds.
+Initial population fitness values:
+[['0', '50.0', '102.0'], ['1', '50.0', '114.0'], ['2', '50.0', '116.0'], ['3', '50.0', '150.0'], ['4', '50.0', '158.0'], ['5', '100.0', '91.0'], ['6', '100.0', '133.0'], ['7', '100.0', '143.0'], ['8', '100.0', '151.0'], ['9', '100.0', '161.0']]
+Final population fitness values:
+[['0', '50.0', '17.0'], ['1', '50.0', '44.0'], ['2', '50.0', '45.0'], ['3', '50.0', '45.0'], ['4', '50.0', '73.0'], ['5', '50.0', '73.0'], ['6', '100.0', '15.0'], ['7', '100.0', '38.0'], ['8', '100.0', '67.0'], ['9', '100.0', '68.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2'], ['Max', 13, 30, 28], ['Mean', 11.8, 22.7, 10.0], ['Min', 11, 0, 0], ['Std', 0.7483314773547883, 11.627983488120371, 12.401612798341997]]
+-> onnx2pytorch[
+
+{'dim': 2}
+{'dim': 1}
+Softmax(dim=1)
+]
+
+[15:29:26]: Exception(classify)[mat1 and mat2 shapes cannot be multiplied (1x5 and 4x13)]
+
+
+[15:29:43]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 331 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+-- Finished evolution with the generation 10 in 3.01 seconds.
+Initial population fitness values:
+[['0', '0.0', '109.0'], ['1', '0.0', '110.0'], ['2', '0.0', '115.0'], ['3', '0.0', '133.0'], ['4', '100.0', '74.0'], ['5', '100.0', '104.0'], ['6', '100.0', '110.0'], ['7', '100.0', '133.0'], ['8', '100.0', '149.0'], ['9', '100.0', '182.0']]
+Final population fitness values:
+[['0', '0.0', '25.0'], ['1', '0.0', '26.0'], ['2', '0.0', '26.0'], ['3', '0.0', '26.0'], ['4', '0.0', '26.0'], ['5', '0.0', '26.0'], ['6', '0.0', '27.0'], ['7', '0.0', '37.0'], ['8', '0.0', '42.0'], ['9', '0.0', '56.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1'], ['Max', 24, 29], ['Mean', 22.9, 5.8], ['Min', 21, 0], ['Std', 0.8306623862918076, 9.64157663455516]]
+-> onnx2pytorch[
+
+{'dim': 2}
+{'dim': 1}
+Softmax(dim=1)
+]
+
+[15:29:46]: Exception(classify)[mat1 and mat2 shapes cannot be multiplied (1x4 and 3x22)]
+
+Using cpu device
+Using cpu device
+
+[15:32:52]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train', ''), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>)])]
+Using cpu device
+Using cpu device
+
+[15:33:12]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/csv')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.csv: 359 bytes]
+ -> Request(classify)[test.csv: 359 bytes]
+-- Finished evolution with the generation 10 in 3.87 seconds.
+Initial population fitness values:
+[['0', '0.0', '139.0'], ['1', '0.0', '164.0'], ['2', '100.0', '73.0'], ['3', '100.0', '78.0'], ['4', '100.0', '94.0'], ['5', '100.0', '102.0'], ['6', '100.0', '149.0'], ['7', '100.0', '154.0'], ['8', '100.0', '155.0'], ['9', '100.0', '159.0']]
+Final population fitness values:
+[['0', '0.0', '69.0'], ['1', '0.0', '69.0'], ['2', '0.0', '70.0'], ['3', '0.0', '78.0'], ['4', '0.0', '99.0'], ['5', '0.0', '100.0'], ['6', '0.0', '100.0'], ['7', '0.0', '101.0'], ['8', '100.0', '77.0'], ['9', '100.0', '90.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4'], ['Max', 28, 19, 21, 30, 24], ['Mean', 26.6, 16.1, 18.1, 16.8, 3.7], ['Min', 25, 12, 14, 0, 0], ['Std', 1.019803902718557, 3.3600595232822887, 3.3600595232822887, 11.830469136936202, 7.798076685952762]]
+-> onnx2pytorch[
+
+{'dim': 2}
+{'dim': 1}
+Softmax(dim=1)
+]
+
+[15:33:16]: Exception(classify)[mat1 and mat2 shapes cannot be multiplied (1x5 and 4x26)]
+
+
+[15:33:32]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train', ''), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>)])]
+Using cpu device
+
+[15:34:47]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 331 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+b'nom,edad,dir,otro,altura\r\nreg1,20,alguna dir 21r,,1.89\r\nreg2,20,alguna dir 23a,ds1,1.89\r\nreg3,20,alguna dir 34f,,1.89\r\nreg4,,alguna dir 23a,ds2,1.89\r\nreg5,20,alguna dir 238a,,1.189\r\nreg6,21,alguna dir 5g,,1.89\r\nreg7,20,alguna dir 23a,,1.89\r\nreg8,20,alguna dir 23a,,1.889\r\nreg9,20,alguna dir 23a,,1.89\r\nreg10,52,alguna dir 23a,,1.89'
+-- Finished evolution with the generation 10 in 10.90 seconds.
+Initial population fitness values:
+[['0', '50.0', '75.0'], ['1', '50.0', '81.0'], ['2', '50.0', '97.0'], ['3', '50.0', '107.0'], ['4', '50.0', '134.0'], ['5', '50.0', '159.0'], ['6', '50.0', '175.0'], ['7', '100.0', '64.0'], ['8', '100.0', '83.0'], ['9', '100.0', '96.0']]
+Final population fitness values:
+[['0', '0.0', '59.0'], ['1', '0.0', '76.0'], ['2', '0.0', '77.0'], ['3', '0.0', '102.0'], ['4', '50.0', '31.0'], ['5', '50.0', '60.0'], ['6', '50.0', '76.0'], ['7', '50.0', '100.0'], ['8', '100.0', '14.0'], ['9', '100.0', '88.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 11, 18, 30, 18, 24, 14], ['Mean', 10.6, 14.9, 23.5, 9.5, 5.4, 1.4], ['Min', 10, 0, 0, 0, 0, 0], ['Std', 0.48989794855663565, 5.028916384272063, 11.757976016304847, 8.040522371090077, 8.56971411425142, 4.2]]
+-> onnx2pytorch[
+
+{'dim': 2}
+{'dim': 1}
+Softmax(dim=1)
+]
+
+[15:34:59]: Exception(classify)[mat1 and mat2 shapes cannot be multiplied (1x4 and 3x11)]
+
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[15:39:42]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 359 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+b'nom,edad,dir,otro,altura,clase\r\nreg1,20,alguna dir 21r,,1.89,0\r\nreg2,20,alguna dir 23a,ds1,1.89,1\r\nreg3,20,alguna dir 34f,,1.89,2\r\nreg4,,alguna dir 23a,ds2,1.89,3\r\nreg5,20,alguna dir 238a,,1.189,0\r\nreg6,21,alguna dir 5g,,1.89,1\r\nreg7,20,alguna dir 23a,,1.89,2\r\nreg8,20,alguna dir 23a,,1.889,3\r\nreg9,20,alguna dir 23a,,1.89,3\r\nreg10,52,alguna dir 23a,,1.89,2\r\n'
+-- Finished evolution with the generation 10 in 4.10 seconds.
+Initial population fitness values:
+[['0', '0.0', '75.0'], ['1', '0.0', '90.0'], ['2', '0.0', '118.0'], ['3', '100.0', '62.0'], ['4', '100.0', '63.0'], ['5', '100.0', '100.0'], ['6', '100.0', '101.0'], ['7', '100.0', '104.0'], ['8', '100.0', '142.0'], ['9', '100.0', '154.0']]
+Final population fitness values:
+[['0', '0.0', '41.0'], ['1', '0.0', '42.0'], ['2', '0.0', '42.0'], ['3', '0.0', '42.0'], ['4', '0.0', '61.0'], ['5', '0.0', '61.0'], ['6', '0.0', '62.0'], ['7', '0.0', '68.0'], ['8', '0.0', '69.0'], ['9', '100.0', '84.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4'], ['Max', 28, 15, 29, 15, 23], ['Mean', 21.6, 12.0, 11.3, 6.0, 2.3], ['Min', 13, 10, 0, 0, 0], ['Std', 6.858571279792899, 2.449489742783178, 10.640018796975877, 7.3484692283495345, 6.9]]
+-> onnx2pytorch[
+
+{'dim': 2}
+{'dim': 1}
+Softmax(dim=1)
+]
+
+[15:39:47]: Response(classify)[{'Predictions': [2, 2, 2, 2, 2, 2, 2, 1, 2]}]
+
+Using cpu device
+
+[15:40:42]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train', ''), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+Using cpu device
+
+[15:41:53]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train', ''), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+
+[15:49:04]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 359 bytes]
+
+[15:50:04]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+Using cpu device
+
+[15:42:52]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('application/vnd.ms-excel')>), ('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+ -> Request(classify)[train.csv: 359 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+-- Finished evolution with the generation 10 in 4.54 seconds.
+Initial population fitness values:
+[['0', '50.0', '78.0'], ['1', '50.0', '129.0'], ['2', '50.0', '143.0'], ['3', '50.0', '144.0'], ['4', '50.0', '153.0'], ['5', '100.0', '80.0'], ['6', '100.0', '143.0'], ['7', '100.0', '145.0'], ['8', '100.0', '165.0'], ['9', '100.0', '170.0']]
+Final population fitness values:
+[['0', '50.0', '76.0'], ['1', '50.0', '76.0'], ['2', '50.0', '77.0'], ['3', '50.0', '77.0'], ['4', '50.0', '77.0'], ['5', '50.0', '77.0'], ['6', '50.0', '77.0'], ['7', '100.0', '49.0'], ['8', '100.0', '76.0'], ['9', '100.0', '77.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3'], ['Max', 10, 12, 24, 28], ['Mean', 9.4, 11.6, 23.7, 25.2], ['Min', 8, 11, 22, 0], ['Std', 0.66332495807108, 0.4898979485566356, 0.6403124237432849, 8.4]]
+[15:42:57]: Response(classify)[{'Predictions': [2, 2, 2, 2, 2, 2, 2, 2, 2]}]
+
+Using cpu device
+
+[15:47:18]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plane')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 359 bytes]
+Using cpu device
+
+[16:22:32]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/csv')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.csv: 3902 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+-- Finished evolution with the generation 10 in 25.33 seconds.
+Initial population fitness values:
+[['0', '63.333333333333336', '89.0'], ['1', '63.333333333333336', '92.0'], ['2', '63.333333333333336', '113.0'], ['3', '63.333333333333336', '117.0'], ['4', '63.333333333333336', '120.0'], ['5', '63.333333333333336', '140.0'], ['6', '63.333333333333336', '144.0'], ['7', '73.33333333333333', '85.0'], ['8', '73.33333333333333', '125.0'], ['9', '73.33333333333333', '186.0']]
+Final population fitness values:
+[['0', '36.66666666666667', '69.0'], ['1', '36.66666666666667', '70.0'], ['2', '36.66666666666667', '70.0'], ['3', '36.66666666666667', '71.0'], ['4', '36.66666666666667', '88.0'], ['5', '63.333333333333336', '70.0'], ['6', '63.333333333333336', '71.0'], ['7', '63.333333333333336', '72.0'], ['8', '63.333333333333336', '85.0'], ['9', '63.333333333333336', '105.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4'], ['Max', 19, 28, 26, 26, 18], ['Mean', 14.6, 25.2, 25.8, 6.7, 1.8], ['Min', 13, 15, 25, 0, 0], ['Std', 2.2891046284519194, 5.114684741017769, 0.4, 10.526632889960588, 5.4]]
+[16:22:58]: Response(classify)[{'Predictions': [1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1]}]
+
+
+[17:59:31]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 3902 bytes]
+[17:59:31]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:00:36]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 3902 bytes]
+[18:00:36]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:07:27]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 3902 bytes]
+[18:07:27]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:44:02]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[18:44:02]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:55:34]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[18:55:34]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:58:04]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain;charset=utf-8')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[18:58:04]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+Using cpu device
+
+[18:07:47]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 3902 bytes]
+[18:07:47]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:38:02]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 3902 bytes]
+[18:38:02]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:50:28]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[18:50:28]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[19:03:10]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('multipart/form-data;charset=utf-8')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[19:03:10]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[19:18:59]: Request(classify)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('multipart/form-data;charset=utf-8')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[19:18:59]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+Using cpu device
+
+[15:51:47]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[flores.csv.csv: 3979  bytes]
+-- Finished evolution with the generation 10 in 30.93 seconds.
+Initial population fitness values:
+[['0', '23.33333333333333', '84.0'], ['1', '50.0', '109.0'], ['2', '50.0', '139.0'], ['3', '73.33333333333333', '100.0'], ['4', '73.33333333333333', '102.0'], ['5', '73.33333333333333', '147.0'], ['6', '73.33333333333333', '147.0'], ['7', '73.33333333333333', '160.0'], ['8', '73.33333333333333', '178.0'], ['9', '76.66666666666667', '79.0']]
+Final population fitness values:
+[['0', '6.666666666666671', '66.0'], ['1', '6.666666666666671', '66.0'], ['2', '6.666666666666671', '104.0'], ['3', '23.33333333333333', '83.0'], ['4', '23.33333333333333', '83.0'], ['5', '23.33333333333333', '83.0'], ['6', '26.66666666666667', '66.0'], ['7', '50.0', '66.0'], ['8', '73.33333333333333', '85.0'], ['9', '83.33333333333334', '103.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 14, 14, 12, 25, 17, 21], ['Mean', 13.8, 13.3, 12.0, 24.2, 10.2, 4.0], ['Min', 13, 12, 12, 24, 0, 0], ['Std', 0.4, 0.6403124237432849, 0.0, 0.4, 8.328265125462805, 8.012490249604053]]
+[15:52:18]: Response(train)[(6.666666666666671, 66, 5, 0.6214829881985983) alongside File[4221 bytes]]
+
+
+[17:55:20]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[17:55:20]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[17:55:44]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 3902 bytes]
+[17:55:44]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[17:56:06]: Request(classify)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 3902 bytes]
+[17:56:06]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:38:30]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[18:38:30]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:40:00]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[18:40:00]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:46:25]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[18:46:25]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:53:29]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[18:53:29]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[18:54:15]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[18:54:15]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[19:02:31]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('multipart/form-data;charset=utf-8')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[19:02:31]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[19:08:26]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('multipart/form-data')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[19:08:26]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+Using cpu device
+
+[19:21:21]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train', ''), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>)])]
+
+[19:44:16]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train', ''), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>)])]
+Using cpu device
+
+[19:20:07]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('multipart/form-data;charset=utf-8')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[19:20:07]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[19:53:28]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'blob' ('multipart/form-data;charset=utf-8')>)])]
+ -> Request(classify)[blob.onnx: 10289 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[19:53:28]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[19:54:04]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'blob' ('multipart/form-data;charset=utf-8')>)])]
+ -> Request(classify)[blob.onnx: 10289 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[19:54:04]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+Using cpu device
+
+[19:44:42]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train', ''), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+
+[19:50:15]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>)])]
+Using cpu device
+Using cpu device
+Using cpu device
+
+[19:58:34]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'blob' ('application/octet-stream')>)])]
+ -> Request(classify)[blob.onnx: 15614 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[19:58:34]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+Using cpu device
+
+[20:01:38]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('text/plain')>)])]
+ -> Request(classify)[train.onnx: 10150 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:01:38]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[20:02:41]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10150 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:02:41]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+
+[20:05:12]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10150 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:05:12]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+Using cpu device
+Using cpu device
+
+[20:03:37]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 7688 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:03:37]: Exception(classify)['utf-8' codec can't decode byte 0xf1 in position 17: invalid continuation byte]
+
+Using cpu device
+Using cpu device
+
+[20:09:51]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10150 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:09:51]: Exception(classify)['bytes' object has no attribute 'encode']
+
+Using cpu device
+Using cpu device
+Using cpu device
+
+[20:11:02]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10150 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:11:02]: Exception(classify)[Error parsing message]
+
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[20:12:00]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10150 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:12:00]: Exception(classify)[Parameter s must be bytes, but got type: <class 'str'>]
+
+Using cpu device
+
+[20:12:42]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10150 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:12:42]: Exception(classify)[Error parsing message]
+
+
+[20:14:05]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10766 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:14:05]: Response(classify)[{'Predictions': [3, 2, 3, 2, 3, 3, 3, 2, 2]}]
+
+
+[20:17:35]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10766 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:17:35]: Response(classify)[{'Predictions': [3, 3, 2, 3, 3, 3, 2, 2, 2]}]
+
+Using cpu device
+
+[20:17:41]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('train', <FileStorage: 'train' ('text/plain')>), ('test', <FileStorage: 'test' ('text/csv')>)])]
+ -> Request(classify)[train.onnx: 0 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[20:17:41]: Exception(classify)[list index (0) out of range]
+
+
+[20:18:24]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 5855 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[20:18:25]: Response(classify)[{'Predictions': [0, 0, 1, 0, 2, 0, 2, 1, 0, 2, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 2, 2, 1, 2, 0, 0, 1, 2, 2, 2, 0, 2, 0, 0, 1, 0, 2, 2, 1, 0, 1, 2, 1, 1, 1, 2, 0, 2, 2, 1, 2, 1, 2, 0, 1, 1, 2, 2, 2, 2, 0, 0, 0, 1, 1, 2, 2, 2, 1, 2, 2, 0, 0, 2, 0, 1, 1, 0, 1, 0, 1, 2, 2, 1, 2, 0, 1, 2, 0, 0, 0, 1, 0, 2, 2, 1, 2, 1, 2, 2, 0, 1, 2, 0, 1, 0, 1, 1, 0, 2, 2, 1, 2, 2, 0, 0, 0, 1, 1, 0, 0, 2, 2, 2, 0, 2, 1, 0, 1, 1, 2, 0, 0, 1, 1, 0, 2, 0, 0, 0, 1, 2, 0, 2, 0, 2, 1, 1, 2]}]
+
+Using cpu device
+Using cpu device
+
+[20:21:44]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10766 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[20:21:44]: Response(classify)[{'Predictions': [2, 3, 2, 3, 3, 2, 3, 2, 3]}]
+
+
+[20:23:38]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 7864 bytes]
+ -> Request(classify)[test.csv: 3468 bytes]
+[20:23:38]: Response(classify)[{'Predictions': [2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 0, 2, 2, 0, 2, 0, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 0, 2, 0, 2, 0, 0, 2, 2, 0, 2, 2, 0, 0, 2, 0, 2, 2, 0, 2, 2, 2, 0, 2, 2, 0, 2, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 0, 2, 2, 0, 0, 2, 0, 2, 2, 2, 0, 2, 2, 2, 2, 0, 0, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 0, 0, 2, 0, 0, 2, 0, 2, 2, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 2, 2, 0, 2, 0, 2, 2, 0, 0, 2, 0, 2, 2, 0, 0, 2, 2, 0, 0, 2, 2, 2, 2, 0, 2, 0]}]
+
+Using cpu device
+
+[20:21:29]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 5855 bytes]
+ -> Request(classify)[test.csv: 3902 bytes]
+[20:21:29]: Exception(classify)[mat1 and mat2 shapes cannot be multiplied (1x5 and 4x14)]
+
+
+[20:21:54]: Request(classify)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'classify'), ('train_extension', 'csv'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>), ('train', <FileStorage: 'flores-test.csv' ('text/csv')>)])]
+ -> Request(classify)[flores-test.csv.csv: 2269 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+-- Finished evolution with the generation 10 in 33.59 seconds.
+Initial population fitness values:
+[['0', '76.66666666666667', '136.0'], ['1', '93.33333333333333', '99.0'], ['2', '96.66666666666667', '122.0'], ['3', '96.66666666666667', '125.0'], ['4', '96.66666666666667', '129.0'], ['5', '96.66666666666667', '156.0'], ['6', '100.0', '93.0'], ['7', '100.0', '122.0'], ['8', '100.0', '129.0'], ['9', '100.0', '175.0']]
+Final population fitness values:
+[['0', '76.66666666666667', '111.0'], ['1', '76.66666666666667', '111.0'], ['2', '76.66666666666667', '111.0'], ['3', '76.66666666666667', '111.0'], ['4', '76.66666666666667', '136.0'], ['5', '80.0', '86.0'], ['6', '83.33333333333334', '81.0'], ['7', '90.0', '81.0'], ['8', '96.66666666666667', '81.0'], ['9', '100.0', '111.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4'], ['Max', 24, 26, 19, 30, 25], ['Mean', 22.0, 18.0, 17.4, 17.6, 5.0], ['Min', 14, 16, 11, 0, 0], ['Std', 4.0, 4.0, 3.1999999999999997, 13.192422067232386, 10.0]]
+[20:22:29]: Exception(classify)[mat1 and mat2 shapes cannot be multiplied (1x4 and 3x24)]
+
+Using cpu device
+Using cpu device
+
+[20:27:25]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[flores-train.csv.csv: 3902  bytes]
+-- Finished evolution with the generation 10 in 31.70 seconds.
+Initial population fitness values:
+[['0', '26.66666666666667', '70.0'], ['1', '43.333333333333336', '106.0'], ['2', '60.0', '139.0'], ['3', '60.0', '151.0'], ['4', '60.0', '153.0'], ['5', '66.66666666666667', '99.0'], ['6', '70.0', '156.0'], ['7', '73.33333333333333', '87.0'], ['8', '73.33333333333333', '129.0'], ['9', '73.33333333333333', '151.0']]
+Final population fitness values:
+[['0', '3.3333333333333286', '79.0'], ['1', '20.0', '79.0'], ['2', '26.66666666666667', '69.0'], ['3', '26.66666666666667', '70.0'], ['4', '26.66666666666667', '77.0'], ['5', '40.0', '90.0'], ['6', '66.66666666666667', '49.0'], ['7', '66.66666666666667', '78.0'], ['8', '66.66666666666667', '80.0'], ['9', '73.33333333333333', '95.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5', 'Hidden layer 6'], ['Max', 17, 18, 12, 20, 25, 14, 12], ['Mean', 12.9, 17.6, 10.4, 14.0, 9.5, 8.0, 1.2], ['Min', 9, 17, 9, 0, 0, 0, 0], ['Std', 3.3896902513356584, 0.4898979485566356, 1.0198039027185568, 5.549774770204643, 7.351870510285121, 6.54217089351845, 3.6000000000000005]]
+[20:27:57]: Response(train)[(3.3333333333333286, 79, 7, 0.6151779691378275) alongside File[5031 bytes]]
+
+
+[20:28:35]: Request(classify)[ImmutableMultiDict([('email', 'ldeniz001@ikasle.ehu.eus'), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 5855 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[20:28:35]: Response(classify)[{'Predictions': [1, 1, 2, 0, 2, 1, 0, 1, 0, 2, 1, 0, 0, 0, 0, 1, 0, 1, 2, 2, 2, 0, 2, 0, 1, 1, 2, 0, 0, 2, 2, 0, 2, 2, 0, 0, 1, 0, 1, 1, 1, 2, 0, 0, 2, 1, 1, 1, 0, 2, 2, 0, 2, 1, 2, 1, 1, 0, 1, 2, 0, 0, 0, 2, 2, 1, 0, 0, 0, 2, 0, 0, 1, 2, 0, 1, 2, 2, 2, 1, 1, 2, 2, 0, 1, 0, 0, 1, 0, 0, 2, 0, 1, 1, 2, 1, 1, 1, 2, 2, 1, 2, 0, 0, 1, 2, 1, 0, 1, 1, 1, 1, 1, 2, 2, 0, 0, 1, 0, 0, 2, 2, 1, 2, 2, 2, 0, 2, 2, 0, 1, 2, 2, 2, 2, 2, 1, 2, 2, 1, 0, 2, 2, 0, 0, 1, 0, 1, 1]}]
+
+Using cpu device
+
+[20:27:26]: Request(test)[ImmutableMultiDict([('email', ''), ('servicio', 'test'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(test)[train.onnx: 10766 bytes]
+ -> Request(test)[test.csv: 331 bytes]
+[20:27:26]: Exception(test)[Parameter s must be bytes, but got type: <class 'str'>]
+
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[20:30:27]: Request(test)[ImmutableMultiDict([('email', ''), ('servicio', 'test'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(test)[train.onnx: 5855 bytes]
+ -> Request(test)[test.csv: 3902 bytes]
+[20:30:27]: Response(test)[{'error_perc': None, 'avg_loss': None, 'fscore': None, 'roc': None, 'tpr': None, 'fpr': None, 'precision': None, 'recall': None}]
+
+
+[20:31:37]: Request(test)[ImmutableMultiDict([('email', ''), ('servicio', 'test'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(test)[train.onnx: 5855 bytes]
+ -> Request(test)[test.csv: 3902 bytes]
+[20:31:37]: Response(test)[{'error_perc': None, 'avg_loss': None, 'fscore': None, 'roc': None, 'tpr': None, 'fpr': None, 'precision': None, 'recall': None}]
+
+Using cpu device
+
+[20:29:58]: Request(test)[ImmutableMultiDict([('email', ''), ('servicio', 'test'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(test)[train.onnx: 10766 bytes]
+ -> Request(test)[test.csv: 331 bytes]
+[20:29:58]: Response(test)[{'error_perc': None, 'avg_loss': None, 'fscore': None, 'roc': None, 'tpr': None, 'fpr': None, 'precision': None, 'recall': None}]
+
+Using cpu device
+Using cpu device
+
+[21:05:26]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10766 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[21:05:26]: Exception(classify)[[Errno 2] No such file or directory: '/opt/api/nom,edad,dir,altura,class\n0,20.0,0,1.89,2\n1,20.0,1,1.89,2\n2,20.0,2,1.89,2\n3,20.0,3,1.189,3\n4,21.0,4,1.89,3\n5,20.0,1,1.89,3\n6,20.0,1,1.889,3\n7,20.0,1,1.89,3\n8,52.0,1,1.89,2\n']
+
+Using cpu device
+Using cpu device
+Using cpu device
+
+[21:10:49]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 5855 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[21:10:50]: Response(classify)[<Response streamed [200 OK]>]
+
+
+[21:11:31]: Request(test)[ImmutableMultiDict([('email', ''), ('servicio', 'test'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(test)[train.onnx: 5855 bytes]
+ -> Request(test)[test.csv: 3902 bytes]
+[21:11:31]: Response(test)[{'error_perc': None, 'avg_loss': None, 'fscore': None, 'roc': None, 'tpr': None, 'fpr': None, 'precision': None, 'recall': None}]
+
+Using cpu device
+
+[21:09:49]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10766 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[21:09:49]: Response(classify)[<Response streamed [200 OK]>]
+
+Using cpu device
+Using cpu device
+
+[21:13:06]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 5855 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[21:13:06]: Response(classify)[{'file': 'sepal.length,sepal.width,petal.length,petal.width,class\n5.1,3.5,1.4,0.2,0\n4.9,3.0,1.4,0.2,0\n4.7,3.2,1.3,0.2,0\n4.6,3.1,1.5,0.2,0\n5.0,3.6,1.4,0.2,0\n5.4,3.9,1.7,0.4,0\n4.6,3.4,1.4,0.3,0\n5.0,3.4,1.5,0.2,0\n4.4,2.9,1.4,0.2,0\n4.9,3.1,1.5,0.1,0\n5.4,3.7,1.5,0.2,0\n4.8,3.4,1.6,0.2,0\n4.8,3.0,1.4,0.1,0\n4.3,3.0,1.1,0.1,0\n5.8,4.0,1.2,0.2,0\n5.7,4.4,1.5,0.4,0\n5.4,3.9,1.3,0.4,0\n5.1,3.5,1.4,0.3,0\n5.7,3.8,1.7,0.3,0\n5.1,3.8,1.5,0.3,0\n5.4,3.4,1.7,0.2,0\n5.1,3.7,1.5,0.4,0\n4.6,3.6,1.0,0.2,0\n5.1,3.3,1.7,0.5,0\n4.8,3.4,1.9,0.2,0\n5.0,3.0,1.6,0.2,0\n5.0,3.4,1.6,0.4,0\n5.2,3.5,1.5,0.2,0\n5.2,3.4,1.4,0.2,0\n4.7,3.2,1.6,0.2,0\n4.8,3.1,1.6,0.2,0\n5.4,3.4,1.5,0.4,0\n5.2,4.1,1.5,0.1,0\n5.5,4.2,1.4,0.2,0\n4.9,3.1,1.5,0.2,0\n5.0,3.2,1.2,0.2,0\n5.5,3.5,1.3,0.2,0\n4.9,3.6,1.4,0.1,0\n4.4,3.0,1.3,0.2,0\n5.1,3.4,1.5,0.2,0\n5.0,3.5,1.3,0.3,0\n4.5,2.3,1.3,0.3,1\n4.4,3.2,1.3,0.2,0\n5.0,3.5,1.6,0.6,0\n5.1,3.8,1.9,0.4,0\n4.8,3.0,1.4,0.3,0\n5.1,3.8,1.6,0.2,0\n4.6,3.2,1.4,0.2,0\n5.3,3.7,1.5,0.2,0\n5.0,3.3,1.4,0.2,0\n7.0,3.2,4.7,1.4,1\n6.4,3.2,4.5,1.5,1\n6.9,3.1,4.9,1.5,1\n5.5,2.3,4.0,1.3,1\n6.5,2.8,4.6,1.5,1\n5.7,2.8,4.5,1.3,1\n6.3,3.3,4.7,1.6,1\n4.9,2.4,3.3,1.0,1\n6.6,2.9,4.6,1.3,1\n5.2,2.7,3.9,1.4,1\n5.0,2.0,3.5,1.0,1\n5.9,3.0,4.2,1.5,1\n6.0,2.2,4.0,1.0,1\n6.1,2.9,4.7,1.4,1\n5.6,2.9,3.6,1.3,1\n6.7,3.1,4.4,1.4,1\n5.6,3.0,4.5,1.5,1\n5.8,2.7,4.1,1.0,1\n6.2,2.2,4.5,1.5,1\n5.6,2.5,3.9,1.1,1\n5.9,3.2,4.8,1.8,2\n6.1,2.8,4.0,1.3,1\n6.3,2.5,4.9,1.5,2\n6.1,2.8,4.7,1.2,1\n6.4,2.9,4.3,1.3,1\n6.6,3.0,4.4,1.4,1\n6.8,2.8,4.8,1.4,1\n6.7,3.0,5.0,1.7,1\n6.0,2.9,4.5,1.5,1\n5.7,2.6,3.5,1.0,1\n5.5,2.4,3.8,1.1,1\n5.5,2.4,3.7,1.0,1\n5.8,2.7,3.9,1.2,1\n6.0,2.7,5.1,1.6,2\n5.4,3.0,4.5,1.5,1\n6.0,3.4,4.5,1.6,1\n6.7,3.1,4.7,1.5,1\n6.3,2.3,4.4,1.3,1\n5.6,3.0,4.1,1.3,1\n5.5,2.5,4.0,1.3,1\n5.5,2.6,4.4,1.2,1\n6.1,3.0,4.6,1.4,1\n5.8,2.6,4.0,1.2,1\n5.0,2.3,3.3,1.0,1\n5.6,2.7,4.2,1.3,1\n5.7,3.0,4.2,1.2,1\n5.7,2.9,4.2,1.3,1\n6.2,2.9,4.3,1.3,1\n5.1,2.5,3.0,1.1,1\n5.7,2.8,4.1,1.3,1\n6.3,3.3,6.0,2.5,2\n5.8,2.7,5.1,1.9,2\n7.1,3.0,5.9,2.1,2\n6.3,2.9,5.6,1.8,2\n6.5,3.0,5.8,2.2,2\n7.6,3.0,6.6,2.1,2\n4.9,2.5,4.5,1.7,2\n7.3,2.9,6.3,1.8,2\n6.7,2.5,5.8,1.8,2\n7.2,3.6,6.1,2.5,2\n6.5,3.2,5.1,2.0,2\n6.4,2.7,5.3,1.9,2\n6.8,3.0,5.5,2.1,2\n5.7,2.5,5.0,2.0,2\n5.8,2.8,5.1,2.4,2\n6.4,3.2,5.3,2.3,2\n6.5,3.0,5.5,1.8,2\n7.7,3.8,6.7,2.2,2\n7.7,2.6,6.9,2.3,2\n6.0,2.2,5.0,1.5,2\n6.9,3.2,5.7,2.3,2\n5.6,2.8,4.9,2.0,2\n7.7,2.8,6.7,2.0,2\n6.3,2.7,4.9,1.8,2\n6.7,3.3,5.7,2.1,2\n7.2,3.2,6.0,1.8,2\n6.2,2.8,4.8,1.8,2\n6.1,3.0,4.9,1.8,2\n6.4,2.8,5.6,2.1,2\n7.2,3.0,5.8,1.6,2\n7.4,2.8,6.1,1.9,2\n7.9,3.8,6.4,2.0,2\n6.4,2.8,5.6,2.2,2\n6.3,2.8,5.1,1.5,2\n6.1,2.6,5.6,1.4,2\n7.7,3.0,6.1,2.3,2\n6.3,3.4,5.6,2.4,2\n6.4,3.1,5.5,1.8,2\n6.0,3.0,4.8,1.8,2\n6.9,3.1,5.4,2.1,2\n6.7,3.1,5.6,2.4,2\n6.9,3.1,5.1,2.3,2\n6.8,3.2,5.9,2.3,2\n6.7,3.3,5.7,2.5,2\n6.7,3.0,5.2,2.3,2\n6.3,2.5,5.0,1.9,2\n6.5,3.0,5.2,2.0,2\n6.2,3.4,5.4,2.3,2\n5.9,3.0,5.1,1.8,2\n'}]
+
+
+[21:13:49]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 5855 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[21:13:49]: Response(classify)[{'file': 'sepal.length,sepal.width,petal.length,petal.width,class\n5.1,3.5,1.4,0.2,0\n4.9,3.0,1.4,0.2,0\n4.7,3.2,1.3,0.2,0\n4.6,3.1,1.5,0.2,0\n5.0,3.6,1.4,0.2,0\n5.4,3.9,1.7,0.4,0\n4.6,3.4,1.4,0.3,0\n5.0,3.4,1.5,0.2,0\n4.4,2.9,1.4,0.2,0\n4.9,3.1,1.5,0.1,0\n5.4,3.7,1.5,0.2,0\n4.8,3.4,1.6,0.2,0\n4.8,3.0,1.4,0.1,0\n4.3,3.0,1.1,0.1,0\n5.8,4.0,1.2,0.2,0\n5.7,4.4,1.5,0.4,0\n5.4,3.9,1.3,0.4,0\n5.1,3.5,1.4,0.3,0\n5.7,3.8,1.7,0.3,0\n5.1,3.8,1.5,0.3,0\n5.4,3.4,1.7,0.2,0\n5.1,3.7,1.5,0.4,0\n4.6,3.6,1.0,0.2,0\n5.1,3.3,1.7,0.5,0\n4.8,3.4,1.9,0.2,0\n5.0,3.0,1.6,0.2,0\n5.0,3.4,1.6,0.4,0\n5.2,3.5,1.5,0.2,0\n5.2,3.4,1.4,0.2,0\n4.7,3.2,1.6,0.2,0\n4.8,3.1,1.6,0.2,0\n5.4,3.4,1.5,0.4,0\n5.2,4.1,1.5,0.1,0\n5.5,4.2,1.4,0.2,0\n4.9,3.1,1.5,0.2,0\n5.0,3.2,1.2,0.2,0\n5.5,3.5,1.3,0.2,0\n4.9,3.6,1.4,0.1,0\n4.4,3.0,1.3,0.2,0\n5.1,3.4,1.5,0.2,0\n5.0,3.5,1.3,0.3,0\n4.5,2.3,1.3,0.3,1\n4.4,3.2,1.3,0.2,0\n5.0,3.5,1.6,0.6,0\n5.1,3.8,1.9,0.4,0\n4.8,3.0,1.4,0.3,0\n5.1,3.8,1.6,0.2,0\n4.6,3.2,1.4,0.2,0\n5.3,3.7,1.5,0.2,0\n5.0,3.3,1.4,0.2,0\n7.0,3.2,4.7,1.4,1\n6.4,3.2,4.5,1.5,1\n6.9,3.1,4.9,1.5,1\n5.5,2.3,4.0,1.3,1\n6.5,2.8,4.6,1.5,1\n5.7,2.8,4.5,1.3,1\n6.3,3.3,4.7,1.6,1\n4.9,2.4,3.3,1.0,1\n6.6,2.9,4.6,1.3,1\n5.2,2.7,3.9,1.4,1\n5.0,2.0,3.5,1.0,1\n5.9,3.0,4.2,1.5,1\n6.0,2.2,4.0,1.0,1\n6.1,2.9,4.7,1.4,1\n5.6,2.9,3.6,1.3,1\n6.7,3.1,4.4,1.4,1\n5.6,3.0,4.5,1.5,1\n5.8,2.7,4.1,1.0,1\n6.2,2.2,4.5,1.5,1\n5.6,2.5,3.9,1.1,1\n5.9,3.2,4.8,1.8,2\n6.1,2.8,4.0,1.3,1\n6.3,2.5,4.9,1.5,2\n6.1,2.8,4.7,1.2,1\n6.4,2.9,4.3,1.3,1\n6.6,3.0,4.4,1.4,1\n6.8,2.8,4.8,1.4,1\n6.7,3.0,5.0,1.7,1\n6.0,2.9,4.5,1.5,1\n5.7,2.6,3.5,1.0,1\n5.5,2.4,3.8,1.1,1\n5.5,2.4,3.7,1.0,1\n5.8,2.7,3.9,1.2,1\n6.0,2.7,5.1,1.6,2\n5.4,3.0,4.5,1.5,1\n6.0,3.4,4.5,1.6,1\n6.7,3.1,4.7,1.5,1\n6.3,2.3,4.4,1.3,1\n5.6,3.0,4.1,1.3,1\n5.5,2.5,4.0,1.3,1\n5.5,2.6,4.4,1.2,1\n6.1,3.0,4.6,1.4,1\n5.8,2.6,4.0,1.2,1\n5.0,2.3,3.3,1.0,1\n5.6,2.7,4.2,1.3,1\n5.7,3.0,4.2,1.2,1\n5.7,2.9,4.2,1.3,1\n6.2,2.9,4.3,1.3,1\n5.1,2.5,3.0,1.1,1\n5.7,2.8,4.1,1.3,1\n6.3,3.3,6.0,2.5,2\n5.8,2.7,5.1,1.9,2\n7.1,3.0,5.9,2.1,2\n6.3,2.9,5.6,1.8,2\n6.5,3.0,5.8,2.2,2\n7.6,3.0,6.6,2.1,2\n4.9,2.5,4.5,1.7,2\n7.3,2.9,6.3,1.8,2\n6.7,2.5,5.8,1.8,2\n7.2,3.6,6.1,2.5,2\n6.5,3.2,5.1,2.0,2\n6.4,2.7,5.3,1.9,2\n6.8,3.0,5.5,2.1,2\n5.7,2.5,5.0,2.0,2\n5.8,2.8,5.1,2.4,2\n6.4,3.2,5.3,2.3,2\n6.5,3.0,5.5,1.8,2\n7.7,3.8,6.7,2.2,2\n7.7,2.6,6.9,2.3,2\n6.0,2.2,5.0,1.5,2\n6.9,3.2,5.7,2.3,2\n5.6,2.8,4.9,2.0,2\n7.7,2.8,6.7,2.0,2\n6.3,2.7,4.9,1.8,2\n6.7,3.3,5.7,2.1,2\n7.2,3.2,6.0,1.8,2\n6.2,2.8,4.8,1.8,2\n6.1,3.0,4.9,1.8,2\n6.4,2.8,5.6,2.1,2\n7.2,3.0,5.8,1.6,2\n7.4,2.8,6.1,1.9,2\n7.9,3.8,6.4,2.0,2\n6.4,2.8,5.6,2.2,2\n6.3,2.8,5.1,1.5,2\n6.1,2.6,5.6,1.4,2\n7.7,3.0,6.1,2.3,2\n6.3,3.4,5.6,2.4,2\n6.4,3.1,5.5,1.8,2\n6.0,3.0,4.8,1.8,2\n6.9,3.1,5.4,2.1,2\n6.7,3.1,5.6,2.4,2\n6.9,3.1,5.1,2.3,2\n6.8,3.2,5.9,2.3,2\n6.7,3.3,5.7,2.5,2\n6.7,3.0,5.2,2.3,2\n6.3,2.5,5.0,1.9,2\n6.5,3.0,5.2,2.0,2\n6.2,3.4,5.4,2.3,2\n5.9,3.0,5.1,1.8,2\n'}]
+
+
+[21:15:27]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10766 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[21:15:27]: Response(classify)[{'file': 'nom,edad,dir,altura,class\n0,20.0,0,1.89,2\n1,20.0,1,1.89,2\n2,20.0,2,1.89,2\n3,20.0,3,1.189,3\n4,21.0,4,1.89,3\n5,20.0,1,1.89,3\n6,20.0,1,1.889,3\n7,20.0,1,1.89,3\n8,52.0,1,1.89,2\n'}]
+
+
+[21:17:16]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 5855 bytes]
+ -> Request(classify)[test.csv: 2269 bytes]
+[21:17:16]: Response(classify)[{'file': 'sepal.length,sepal.width,petal.length,petal.width,class\n5.1,3.5,1.4,0.2,0\n4.9,3.0,1.4,0.2,0\n4.7,3.2,1.3,0.2,0\n4.6,3.1,1.5,0.2,0\n5.0,3.6,1.4,0.2,0\n5.4,3.9,1.7,0.4,0\n4.6,3.4,1.4,0.3,0\n5.0,3.4,1.5,0.2,0\n4.4,2.9,1.4,0.2,0\n4.9,3.1,1.5,0.1,0\n5.4,3.7,1.5,0.2,0\n4.8,3.4,1.6,0.2,0\n4.8,3.0,1.4,0.1,0\n4.3,3.0,1.1,0.1,0\n5.8,4.0,1.2,0.2,0\n5.7,4.4,1.5,0.4,0\n5.4,3.9,1.3,0.4,0\n5.1,3.5,1.4,0.3,0\n5.7,3.8,1.7,0.3,0\n5.1,3.8,1.5,0.3,0\n5.4,3.4,1.7,0.2,0\n5.1,3.7,1.5,0.4,0\n4.6,3.6,1.0,0.2,0\n5.1,3.3,1.7,0.5,0\n4.8,3.4,1.9,0.2,0\n5.0,3.0,1.6,0.2,0\n5.0,3.4,1.6,0.4,0\n5.2,3.5,1.5,0.2,0\n5.2,3.4,1.4,0.2,0\n4.7,3.2,1.6,0.2,0\n4.8,3.1,1.6,0.2,0\n5.4,3.4,1.5,0.4,0\n5.2,4.1,1.5,0.1,0\n5.5,4.2,1.4,0.2,0\n4.9,3.1,1.5,0.2,0\n5.0,3.2,1.2,0.2,0\n5.5,3.5,1.3,0.2,0\n4.9,3.6,1.4,0.1,0\n4.4,3.0,1.3,0.2,0\n5.1,3.4,1.5,0.2,0\n5.0,3.5,1.3,0.3,0\n4.5,2.3,1.3,0.3,1\n4.4,3.2,1.3,0.2,0\n5.0,3.5,1.6,0.6,0\n5.1,3.8,1.9,0.4,0\n4.8,3.0,1.4,0.3,0\n5.1,3.8,1.6,0.2,0\n4.6,3.2,1.4,0.2,0\n5.3,3.7,1.5,0.2,0\n5.0,3.3,1.4,0.2,0\n7.0,3.2,4.7,1.4,1\n6.4,3.2,4.5,1.5,1\n6.9,3.1,4.9,1.5,1\n5.5,2.3,4.0,1.3,1\n6.5,2.8,4.6,1.5,1\n5.7,2.8,4.5,1.3,1\n6.3,3.3,4.7,1.6,1\n4.9,2.4,3.3,1.0,1\n6.6,2.9,4.6,1.3,1\n5.2,2.7,3.9,1.4,1\n5.0,2.0,3.5,1.0,1\n5.9,3.0,4.2,1.5,1\n6.0,2.2,4.0,1.0,1\n6.1,2.9,4.7,1.4,1\n5.6,2.9,3.6,1.3,1\n6.7,3.1,4.4,1.4,1\n5.6,3.0,4.5,1.5,1\n5.8,2.7,4.1,1.0,1\n6.2,2.2,4.5,1.5,1\n5.6,2.5,3.9,1.1,1\n5.9,3.2,4.8,1.8,2\n6.1,2.8,4.0,1.3,1\n6.3,2.5,4.9,1.5,2\n6.1,2.8,4.7,1.2,1\n6.4,2.9,4.3,1.3,1\n6.6,3.0,4.4,1.4,1\n6.8,2.8,4.8,1.4,1\n6.7,3.0,5.0,1.7,1\n6.0,2.9,4.5,1.5,1\n5.7,2.6,3.5,1.0,1\n5.5,2.4,3.8,1.1,1\n5.5,2.4,3.7,1.0,1\n5.8,2.7,3.9,1.2,1\n6.0,2.7,5.1,1.6,2\n5.4,3.0,4.5,1.5,1\n6.0,3.4,4.5,1.6,1\n6.7,3.1,4.7,1.5,1\n6.3,2.3,4.4,1.3,1\n5.6,3.0,4.1,1.3,1\n5.5,2.5,4.0,1.3,1\n5.5,2.6,4.4,1.2,1\n6.1,3.0,4.6,1.4,1\n5.8,2.6,4.0,1.2,1\n5.0,2.3,3.3,1.0,1\n5.6,2.7,4.2,1.3,1\n5.7,3.0,4.2,1.2,1\n5.7,2.9,4.2,1.3,1\n6.2,2.9,4.3,1.3,1\n5.1,2.5,3.0,1.1,1\n5.7,2.8,4.1,1.3,1\n6.3,3.3,6.0,2.5,2\n5.8,2.7,5.1,1.9,2\n7.1,3.0,5.9,2.1,2\n6.3,2.9,5.6,1.8,2\n6.5,3.0,5.8,2.2,2\n7.6,3.0,6.6,2.1,2\n4.9,2.5,4.5,1.7,2\n7.3,2.9,6.3,1.8,2\n6.7,2.5,5.8,1.8,2\n7.2,3.6,6.1,2.5,2\n6.5,3.2,5.1,2.0,2\n6.4,2.7,5.3,1.9,2\n6.8,3.0,5.5,2.1,2\n5.7,2.5,5.0,2.0,2\n5.8,2.8,5.1,2.4,2\n6.4,3.2,5.3,2.3,2\n6.5,3.0,5.5,1.8,2\n7.7,3.8,6.7,2.2,2\n7.7,2.6,6.9,2.3,2\n6.0,2.2,5.0,1.5,2\n6.9,3.2,5.7,2.3,2\n5.6,2.8,4.9,2.0,2\n7.7,2.8,6.7,2.0,2\n6.3,2.7,4.9,1.8,2\n6.7,3.3,5.7,2.1,2\n7.2,3.2,6.0,1.8,2\n6.2,2.8,4.8,1.8,2\n6.1,3.0,4.9,1.8,2\n6.4,2.8,5.6,2.1,2\n7.2,3.0,5.8,1.6,2\n7.4,2.8,6.1,1.9,2\n7.9,3.8,6.4,2.0,2\n6.4,2.8,5.6,2.2,2\n6.3,2.8,5.1,1.5,2\n6.1,2.6,5.6,1.4,2\n7.7,3.0,6.1,2.3,2\n6.3,3.4,5.6,2.4,2\n6.4,3.1,5.5,1.8,2\n6.0,3.0,4.8,1.8,2\n6.9,3.1,5.4,2.1,2\n6.7,3.1,5.6,2.4,2\n6.9,3.1,5.1,2.3,2\n6.8,3.2,5.9,2.3,2\n6.7,3.3,5.7,2.5,2\n6.7,3.0,5.2,2.3,2\n6.3,2.5,5.0,1.9,2\n6.5,3.0,5.2,2.0,2\n6.2,3.4,5.4,2.3,2\n5.9,3.0,5.1,1.8,2\n'}]
+
+
+[21:17:38]: Request(test)[ImmutableMultiDict([('email', ''), ('servicio', 'test'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(test)[train.onnx: 5855 bytes]
+ -> Request(test)[test.csv: 2269 bytes]
+[21:17:38]: Response(test)[{'error_perc': None, 'avg_loss': None, 'fscore': None, 'roc': None, 'tpr': None, 'fpr': None, 'precision': None, 'recall': None}]
+
+Using cpu device
+
+[21:15:13]: Request(train)[ImmutableMultiDict([('email', ''), ('servicio', 'train'), ('train_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(train)[wine-train.csv.csv: 84042  bytes]
+-- Finished evolution with the generation 10 in 380.06 seconds.
+Initial population fitness values:
+[['0', '59.19117647058824', '155.0'], ['1', '64.70588235294117', '95.0'], ['2', '64.70588235294117', '118.0'], ['3', '64.70588235294117', '139.0'], ['4', '64.70588235294117', '139.0'], ['5', '95.22058823529412', '116.0'], ['6', '98.8970588235294', '95.0'], ['7', '98.8970588235294', '124.0'], ['8', '99.26470588235294', '120.0'], ['9', '99.26470588235294', '133.0']]
+Final population fitness values:
+[['0', '52.94117647058824', '77.0'], ['1', '52.94117647058824', '108.0'], ['2', '53.30882352941176', '76.0'], ['3', '53.30882352941176', '77.0'], ['4', '53.30882352941176', '79.0'], ['5', '53.67647058823529', '55.0'], ['6', '53.67647058823529', '77.0'], ['7', '64.70588235294117', '55.0'], ['8', '64.70588235294117', '78.0'], ['9', '65.07352941176471', '95.0']]
+Final population layer neurons statistics:
+[['Statistic', 'Hidden layer 0', 'Hidden layer 1', 'Hidden layer 2', 'Hidden layer 3', 'Hidden layer 4', 'Hidden layer 5'], ['Max', 21, 16, 13, 23, 18, 13], ['Mean', 20.9, 15.9, 12.2, 17.8, 3.6, 1.3], ['Min', 20, 15, 12, 0, 0, 0], ['Std', 0.3, 0.3, 0.4, 8.908422980528034, 7.2, 3.8999999999999995]]
+[21:21:39]: Response(train)[(52.94117647058824, 77, 5, 1.5725282175200326) alongside File[5869 bytes]]
+
+
+[21:26:50]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('text/csv')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 5855 bytes]
+ -> Request(classify)[test.csv: 113 bytes]
+[21:26:50]: Response(classify)[{'file': 'sepal.length,sepal.width,petal.length,petal.width,class\n5.1,3.5,1.4,0.2,0\n7.0,3.2,4.7,1.4,1\n6.3,3.3,6.0,2.5,2\n'}]
+
+Using cpu device
+
+[21:11:54]: Request(classify)[ImmutableMultiDict([('email', ''), ('servicio', 'classify'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')]), ImmutableMultiDict([('test', <FileStorage: 'test' ('application/vnd.ms-excel')>), ('train', <FileStorage: 'train' ('application/octet-stream')>)])]
+ -> Request(classify)[train.onnx: 10766 bytes]
+ -> Request(classify)[test.csv: 331 bytes]
+[21:11:54]: Response(classify)[{'file': 'nom,edad,dir,altura,class\n0,20.0,0,1.89,2\n1,20.0,1,1.89,2\n2,20.0,2,1.89,2\n3,20.0,3,1.189,3\n4,21.0,4,1.89,3\n5,20.0,1,1.89,3\n6,20.0,1,1.889,3\n7,20.0,1,1.89,3\n8,52.0,1,1.89,2\n'}]
+
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+Using cpu device
+
+[21:52:03]: Request(test)[ImmutableMultiDict([('email', ''), ('servicio', 'test'), ('train_extension', 'onnx'), ('test_extension', 'csv'), ('terms', 'Acepto')])]
+ -> Request(test)[train.onnx: 10766 bytes]
+ -> Request(test)[test.csv: 359 bytes]
+[21:52:03]: Exception(test)[name 'classification_report' is not defined]
+
