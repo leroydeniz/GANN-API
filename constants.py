@@ -15,7 +15,7 @@ PROB_MUT_SESGOS = 0.5
 PROB_MUT_PESOS = 0.5
 
 # Neural Network
-MAX_EPOCHS_NN = 10
+MAX_EPOCHS_NN = 100
 
 # Probabilidad de cruce entre genes
 PROB_CRUCE = 0.5

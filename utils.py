@@ -8,14 +8,13 @@ import torch
 from torch.utils.data import DataLoader, TensorDataset
 from torch import tensor
 import torch.onnx
+from torch import nn
 
 import onnx
 from onnx2pytorch import ConvertModel
 
 from sklearn.metrics import (
                              accuracy_score,
-                             log_loss,
-                             auc,
                              classification_report
                              )
 
@@ -177,15 +176,14 @@ def evaluar(modelo, dataset) -> Any:
         classes = {}
         for i,key in enumerate(uniques.tolist()):
                 classes.update({key:report.pop(str(i))})
-        report.update({'by_classes': classes})
-
-        scores = {
-                    "error_perc": None, # 1 - Accuracy
-                    "avg_loss": None,
-                    "roc": None,
-                    "tpr": None,
-                    "fpr": None,
-                    }
+        report.update({'by classes': classes})
+        report.update(
+                        {
+                        "error score": (1.0-accuracy_score(y_true=truth, y_pred=pred)),
+                        "predictions": pred.tolist(),
+                        "trues":truth.tolist()
+                        }
+                )
         return report
 
 def optimizar(file) -> Tuple[NeuralNetwork, List[float], int]:

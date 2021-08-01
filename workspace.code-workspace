@@ -1,14 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../../etc/nginx"
-		},
-		{
-			"path": "../../home/gann/.local/lib/python3.7/site-packages/onnx2pytorch"
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
