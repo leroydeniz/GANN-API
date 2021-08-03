@@ -132,3 +132,17 @@
   return torch._C._cuda_getDeviceCount() > 0
 [2021-08-01 04:12:20 +0200] [8978] [INFO] Worker exiting (pid: 8978)
 [2021-08-01 04:12:21 +0200] [9042] [INFO] Booting worker with pid: 9042
+[2021-08-02 21:38:25 +0200] [8974] [CRITICAL] WORKER TIMEOUT (pid:8977)
+/home/gann/.local/lib/python3.7/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:115.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/gann/.local/lib/python3.7/site-packages/onnx2pytorch/convert/operations.py:105: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /pytorch/torch/csrc/utils/tensor_numpy.cpp:180.)
+  weight = torch.from_numpy(numpy_helper.to_array(params[0]))
+/home/gann/.local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/gann/.local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/gann/.local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[2021-08-02 21:38:25 +0200] [8977] [INFO] Worker exiting (pid: 8977)
+[2021-08-02 21:38:26 +0200] [8974] [WARNING] Worker with pid 8977 was terminated due to signal 9
+[2021-08-02 21:38:26 +0200] [18682] [INFO] Booting worker with pid: 18682
